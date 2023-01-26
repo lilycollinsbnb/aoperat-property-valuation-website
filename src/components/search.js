@@ -87,7 +87,7 @@ const searchStyle = {
       border: "none",
       display: "flex",
       alignItems: "center",
-      color: "#fff",
+      color: "#4C9C62",
       cursor: "pointer",
     },
     position: ["none", "relative"],
@@ -104,22 +104,22 @@ const searchStyle = {
         "0px 0px 50px 0px rgba(0,0,0,.1), 0px 0px 1px 1px rgba(0,0,0,.1)",
     },
     ".search-input": {
-      bg: "#fff",
-      color: "#000",
+      bg: "#4C9C62",
+      color: "#fff",
       borderRadius: "0",
       boxShadow: "none",
       border: "none",
     },
     ".search": {
       cursor: "pointer",
-      color: "#fff",
+      color: "#4C9C62",
       display: "flex",
       justifyContent: "center",
       "&:hover, &:focus": {
-        color: "rgba(255, 255, 255, 0.8)",
+        color: "rgba(76, 156, 98, 0.8)",
       },
       "&.is-active": {
-        color: "rgba(255, 255, 255, 0.8)",
+        color: "rgba(76, 156, 98, 0.8)",
         position: "relative",
         zIndex: 1112,
         "+ .search-container": {
@@ -154,7 +154,7 @@ const searchStyle = {
           },
           ul: {
             display: "block",
-            bg: "#fff",
+            bg: "#4C9C62",
             pl: 0,
             m: 0,
           },

@@ -5,7 +5,7 @@ const Header = ({ children }) => (
   <header
     className="site-header"
     sx={{
-      bg: "siteColor",
+      bg: "navbarColor",
     }}
   >
     {children}

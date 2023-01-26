@@ -7,7 +7,7 @@ backend:
     delete: "Delete {{collection}} “{{slug}}”"
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
-
+local_backend: true
 # Uncomment local_backend when you need to develop in your local
 #local_backend: true # run `npx netlify-cms-proxy-server` for local testing
 
@@ -79,6 +79,15 @@ collections:
           - { label: "Tagline", name: "tagline", widget: "string" }
           - { label: "Featured Image", name: "featuredImage", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Carousel Items"
+            name: "carouselItems"
+            widget: "list"
+            allow_add: true
+            label_singular: "item"
+            fields:
+                - {label: Image, name: image, widget: image}
+                - {label: Text, name: text, widget: string}
+                - {label: Redirect To, name: redirectTo, widget: string}
           - label: "CTA"
             name: "cta"
             widget: "object"
@@ -117,6 +126,24 @@ collections:
               name: "slug",
               widget: "hidden",
               default: "/contact",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Services"
+        name: "services"
+        file: "src/content/pages/services.md"
+        fields:
+          - {
+            label: "Template",
+            name: "template",
+            widget: "hidden",
+            default: "services-page"
+          }
+          - {
+              label: "Slug",
+              name: "slug",
+              widget: "hidden",
+              default: "/services",
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -227,3 +254,4 @@ collections:
             widget: "color"
             enableAlpha: true
             allowInput: true
+            

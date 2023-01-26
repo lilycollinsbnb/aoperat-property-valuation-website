@@ -1,0 +1,213 @@
+// .container {
+//   margin: 0 auto;
+//   max-width: 1344px;
+//   padding: 0 0;
+// }
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 20px;
+}
+
+.small-margin-container {
+  position: relative;
+  margin: 1rem auto 1rem auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+.mrb-container {
+  position: relative;
+  margin: 2rem auto 3rem auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+  
+.mrb-columns-wrapper {
+  margin-top: .25rem;
+  margin-bottom: .5rem;
+}
+  
+.mrb-footer-container {
+  padding: 0 1rem 1rem 1rem
+  columns {
+    width: 100%
+  }
+}
+
+@media (min-width: 600px) {
+  .mrb-container {
+    margin: 1rem auto 3rem auto;
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+
+  .mrb-box {
+    padding: 3rem 2rem
+  } 
+}
+  
+
+
+@media (min-width: 750px) {
+  .is-size-3-tablet {
+    font-size: 2rem!important;
+  }
+  
+  .mrb-container {
+    margin: 2rem auto 3rem auto
+  }
+  
+
+  .mrb-columns-wrapper {
+    margin-top: .75rem
+  }
+  
+  .mrb-label {
+    font-size: 1.25rem
+  }
+
+  .mrb-box {
+    .columns {
+      height: 300px;
+      p {
+        padding-left: 2rem;
+      }
+    }
+
+    .mrb-scroll-arrow {
+      position: absolute;
+      left: 50%;
+      bottom: 40px;
+      transform: translateX(-50%);
+    }
+      
+  }
+    
+}
+  
+
+@media (min-width: 1023px) {
+  
+  .mrb-container {
+    margin: 2rem auto 4rem auto
+  }
+  
+  .mrb-navbar-container {
+    padding: .75rem 1.5rem 0rem 1.5rem;
+    .navbar-brand{
+      flex: 33%
+    }
+
+    .navbar-menu {
+      flex: 67%;
+
+      .navbar-start {
+        margin: 0 auto;
+        justify-content: center;
+        gap: 14px;
+      }
+
+      .navbar-start, .navbar-end {
+        flex: 50%;
+        align-items: center;
+      }
+    }
+  }
+
+  .mrb-columns-wrapper {
+    margin-top: 1.75rem;
+  }
+  
+  .mrb-footer-container {
+    padding: 3rem 2rem 6rem 2rem;
+  }
+  
+  .mrb-logo {
+    width: 300px !important;
+    max-height: unset !important;
+  }
+
+  .mrb-menu {
+    .menu-list {
+      margin-top: 1.25rem
+    }
+  }
+  
+  .mrb-socials {
+    margin-top: 1.25rem
+  }
+  
+  .mrb-box {
+    padding: 5rem !important;
+    .mrb-scroll-arrow {
+      bottom: 4.5rem
+    }
+  }
+  
+} 
+
+
+@media (min-width: 1380px) {
+  .mrb-logo {
+    width: 300px !important
+  }
+  
+  .mrb-container {
+    margin: 4rem auto 7rem auto;
+    padding: 0;
+  }
+
+  .mrb-navbar-container {
+    padding: 1rem .75rem 0rem .75rem;
+  }
+    
+}
+
+// Carousel
+.carousel-container {
+  margin: 2rem auto 3rem auto
+}
+  
+
+.is-carousel-item{
+  background-color: rgba(76, 156, 98, 1);
+  color: white;
+}
+  
+
+.slick-dots li.slick-active button:before {
+  color: rgba(76, 156, 98, 1) !important;
+}
+  
+
+.slick-dots li button:before {
+  color: rgba(76, 156, 98, 1) !important;
+}
+  
+
+.carousel-content-grid-wrapper {
+  display: grid;
+  grid-template-columns: 1.5fr 97fr 1.5fr;
+  align-items: end;
+}
+  
+.carousel-text-area {
+  grid-column: 2;
+  background: rgba(76, 156, 98, 0.75);
+  height:45%;
+  display: grid;
+  text-align: center;
+}
+  
+
+  
+
+
+
+
+
+
+ 
+

@@ -1,12 +1,42 @@
 @import "theme-variables";
 @import "defaults";
 @import "lib/css-grid-utility";
+@import "containers-wrappers";
+@import "text-styles";
 
 // .primary-container {
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
 // 	min-height: 100vh;
 // }
+
+$primary-green: rgba(76, 156, 98, 1);
+$primary-green-80: rgba(76, 156, 98, 0.8);
+$primary-green-60: rgba(76, 156, 98, 0.6);
+
+.is-color-primary-green{
+  color: $primary-green !important
+}
+  
+$secondary-black: rgba(33, 35, 38, 1);
+$secondary-black-80: rgba(33, 35, 38, 0.8);
+$secondary-black-60: rgba(33, 35, 38, 0.6);
+
+.is-color-white {
+  color: white !important
+}
+  
+
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.is-centered {
+  justify-content: center;
+}
+
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
 }
@@ -28,14 +58,14 @@
     margin-left: 20px;
   }
   a {
-    color: rgba(255, 255, 255, 0.6);
+    color: $secondary-black;
     text-decoration: none;
     &:hover {
-      color: rgba(255, 255, 255, 0.8);
+      color: $primary-green;
     }
   }
   a[aria-current="page"] {
-    color: rgba(255, 255, 255, 1);
+    color: $primary-green;
   }
   .menu-trigger {
     display: none;
@@ -87,18 +117,14 @@
     }
   }
 }
-.container {
-  margin: 0 auto;
-  max-width: 1240px;
-  padding: 0 20px;
-}
+
 .site-logo {
   font-weight: bold;
   a {
-    color: #fff;
+    color: $primary-green;
     text-decoration: none;
     &:hover {
-      color: #fff;
+      color: $primary-green;
     }
   }
   @media (max-width: $breakpoint-lg) {
@@ -253,6 +279,20 @@ article img {
     margin-right: auto;
   }
 }
+
+.social a {
+  padding: .5em .5em .3em .5em;
+    border-radius: 1em;
+    background-color:white;
+    margin: .5em;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    display: inline;
+}
+    
+
+    
 // Buttons
 .button {
   --padding: 15px;
@@ -289,6 +329,45 @@ article img {
     }
   }
 }
+
+.mrb-button {
+  padding: 1rem 1.7rem 1rem 1.7rem !important;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 0;
+  transition: all .2s ease-in-out;
+}
+  
+
+.mrb-button-light {
+  color: white;
+  background-color: $primary-green;
+  border-color: $primary-green;
+}
+
+.mrb-button-light:hover {
+  color: $secondary-black;
+  background-color: transparent;
+}
+
+.mrb-button-dark {
+  color: white;
+  background-color: $secondary-black;
+  border-color: $secondary-black; 
+}
+  
+.mrb-button-dark:hover {
+  color: $secondary-black;
+  background-color: transparent;
+}
+
+.mrb-button-link {
+  padding: 0 !important;
+  height: unset;
+  text-decoration: underline;
+  border: none;
+}
+  
 
 // Page
 .page,
@@ -338,7 +417,7 @@ article img {
 .site-footer {
   display: flex;
   align-items: center;
-  background: #eee;
+  background: $primary-green;
   text-align: center;
   font-size: 14px;
   padding: 20px 0;

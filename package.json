@@ -23,6 +23,7 @@
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@theme-ui/color": "^0.6.0",
+    "bulma": "^0.9.4",
     "gatsby": "^4.7.1",
     "gatsby-plugin-google-analytics": "^4.7.0",
     "gatsby-plugin-image": "^2.7.0",
@@ -47,7 +48,9 @@
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
+    "react-slick": "^0.29.0",
     "sass": "^1.49.7",
+    "slick-carousel": "^1.8.1",
     "theme-ui": "^0.6.2"
   },
   "devDependencies": {

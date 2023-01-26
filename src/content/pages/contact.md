@@ -1,7 +1,7 @@
 ---
 template: contact-page
 slug: /contact
-title: Get in touch
+title: Skontaktuj się z nami
 ---
 
 Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.

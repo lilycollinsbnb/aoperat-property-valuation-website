@@ -1,8 +1,6 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
-
+import React from 'react'
 import PostCard from "./post-card"
 
 export default function BlogListHome(props) {
@@ -14,25 +12,14 @@ export default function BlogListHome(props) {
 }
 
 const PostMaker = ({ data }) => (
-  <section className="home-posts">
-    <h2>
-      Latest in <strong>Blog</strong>{" "}
-      <span className="icon -right">
-        <RiArrowDownLine />
-      </span>
-    </h2>
-    <div className="grids col-1 sm-2 lg-3">{data}</div>
-    <Link
-      className="button"
-      to="/blog"
-      sx={{
-        variant: "variants.button",
-      }}
-    >
-      See more
-      <span className="icon -right">
-        <RiArrowRightSLine />
-      </span>
-    </Link>
-  </section>
+  <div>
+    <section className="home-posts">
+      <div className="grids col-1 sm-2 lg-3">{data}</div>
+      <div className="buttons is-centered">
+            <Link className="button mrb-button mrb-button-light" to="/blog">
+              Czytaj więcej
+            </Link>
+      </div>
+    </section>
+  </div>
 )

@@ -19,12 +19,13 @@ import {
   RiMediumFill,
   RiBehanceFill,
 } from "react-icons/ri"
-import { faTiktok, FaWordpress, FaVk } from "react-icons/fa"
+import { FaTiktok, FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
+import Carousel from "../components/carousel"
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -42,6 +43,15 @@ export const pageQuery = graphql`
         cta {
           ctaText
           ctaLink
+        }
+        carouselItems {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
+          text
+          redirectTo
         }
       }
     }
@@ -204,55 +214,17 @@ const HomePage = ({ data }) => {
   return (
     <Layout>
       <Seo />
-      <div className="home-banner grids col-1 sm-2">
-        <div>
-          <h1 className="title">{frontmatter.title}</h1>
-          <p
-            className="tagline"
-            sx={{
-              color: "muted",
-            }}
-          >
-            {frontmatter.tagline}
-          </p>
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-          <Link
-            to={frontmatter.cta.ctaLink}
-            className="button"
-            sx={{
-              variant: "variants.button",
-            }}
-          >
-            {frontmatter.cta.ctaText}
-            <span className="icon -right">
-              <RiArrowRightSLine />
-            </span>
-          </Link>
-          <div
-            className="social-icons"
-            sx={{
-              variant: "variants.socialIcons",
-            }}
-          >
-            {sIcons}
+      <div >
+        <Carousel items={frontmatter.carouselItems} />
+        <section>
+          <div className="container is-fullhd mrb-container">
+            <h3 className="has-text-weight-semibold is-size-4-mobile is-size-3-tablet is-size-2-widescreen is-color-primary-green">
+              Aktualności
+            </h3>
+            <BlogListHome data={posts} />
           </div>
-        </div>
-        <div>
-          {Image ? (
-            <GatsbyImage
-              image={Image}
-              alt={frontmatter.title + " - Featured image"}
-              className="featured-image"
-            />
-          ) : (
-            ""
-          )}
-        </div>
+        </section>
       </div>
-      <BlogListHome data={posts} />
     </Layout>
   )
 }

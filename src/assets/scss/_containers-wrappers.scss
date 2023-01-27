@@ -1,14 +1,14 @@
-// .container {
-//   margin: 0 auto;
-//   max-width: 1344px;
-//   padding: 0 0;
-// }
-
 .container {
   margin: 0 auto;
-  max-width: 1240px;
-  padding: 0 20px;
+  max-width: 1344px;
+  padding: 0 0;
 }
+
+// .container {
+//   margin: 0 auto;
+//   max-width: 1240px;
+//   padding: 0 20px;
+// }
 
 .small-margin-container {
   position: relative;
@@ -200,13 +200,15 @@
   display: grid;
   text-align: center;
 }
+
+.is-max-width-1 {
+  max-width: 500px
+}
   
-
+.is-max-width-2 {
+  max-width: 300px
+}
   
-
-
-
-
 
 
  

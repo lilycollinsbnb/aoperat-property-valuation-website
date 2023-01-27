@@ -3,7 +3,6 @@
 @import "lib/css-grid-utility";
 @import "containers-wrappers";
 @import "text-styles";
-
 // .primary-container {
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
@@ -120,6 +119,7 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
 
 .site-logo {
   font-weight: bold;
+  font-size: 42px;
   a {
     color: $primary-green;
     text-decoration: none;
@@ -127,10 +127,8 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
       color: $primary-green;
     }
   }
-  @media (max-width: $breakpoint-lg) {
-    font-size: 20px;
-  }
 }
+
 .home-banner {
   padding: 60px 0;
   align-items: center;

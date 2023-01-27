@@ -1,8 +1,9 @@
 import React from "react"
-import { graphql } from "gatsby"
-
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ImageRightSection from "../components/image-right-section"
+import Content, { HTMLContent } from "../components/content.js";
 
 export const pageQuery = graphql`
   query AboutQuery($id: String!) {
@@ -11,7 +12,13 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 140)
       frontmatter {
-        title
+        title,
+        subheading
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
       }
     }
   }
@@ -23,9 +30,14 @@ const AboutPage = ({ data }) => {
   return (
     <Layout className="page">
       <Seo title={frontmatter.title} description={excerpt} />
-      <div className="wrapper">
-        <h1>{frontmatter.title}</h1>
-        <article dangerouslySetInnerHTML={{ __html: html }} />
+      <ImageRightSection TitleTag={"h1"} title={frontmatter.title} subheading={frontmatter.subheading} img={frontmatter.image} />
+      <div className="container is-fullhd mrb-container">
+          <HTMLContent className="content" content={html}/>
+          <div className="buttons is-centered">
+            <Link className="button mrb-button mrb-button-light" to="/services">
+              Sprawdź naszą ofertę
+            </Link>
+          </div>
       </div>
     </Layout>
   )

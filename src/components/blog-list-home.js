@@ -1,5 +1,4 @@
 import { Link } from "gatsby"
-import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
 import React from 'react'
 import PostCard from "./post-card"
 
@@ -16,9 +15,9 @@ const PostMaker = ({ data }) => (
     <section className="home-posts">
       <div className="grids col-1 sm-2 lg-3">{data}</div>
       <div className="buttons is-centered">
-            <Link className="button mrb-button mrb-button-light" to="/blog">
-              Czytaj więcej
-            </Link>
+        <Link className="button mrb-button mrb-button-light" to="/blog">
+           Czytaj więcej
+        </Link>
       </div>
     </section>
   </div>

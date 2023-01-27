@@ -110,6 +110,14 @@ collections:
             }
           - { label: "Slug", name: "slug", widget: "hidden", default: "/about" }
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subheading", name: "subheading", widget: "string" }
+          - {
+              label: "Image",
+              name: "image",
+              widget: "image",
+              required: false,
+              tagname: "",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Contact"
         name: "contact"
@@ -128,6 +136,13 @@ collections:
               default: "/contact",
             }
           - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Image",
+              name: "image",
+              widget: "image",
+              required: false,
+              tagname: "",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
       - label: "Services"
         name: "services"
@@ -146,6 +161,14 @@ collections:
               default: "/services",
             }
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subheading", name: "subheading", widget: "string" }
+          - {
+              label: "Image",
+              name: "image",
+              widget: "image",
+              required: false,
+              tagname: "",
+            }
           - { label: "Body", name: "body", widget: "markdown" }
   - name: settings
     label: Settings

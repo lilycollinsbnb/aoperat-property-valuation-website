@@ -54,6 +54,7 @@
     "theme-ui": "^0.6.2"
   },
   "devDependencies": {
-    "gatsby-plugin-netlify": "^4.1.0"
+    "gatsby-plugin-netlify": "^4.1.0",
+    "node-sass": "^8.0.0"
   }
 }

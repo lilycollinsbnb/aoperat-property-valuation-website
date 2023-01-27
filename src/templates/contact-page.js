@@ -1,10 +1,11 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
-import { RiSendPlane2Line } from "react-icons/ri"
-
+import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ContactForm from "../components/contact-form"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 export const pageQuery = graphql`
   query ContactQuery($id: String!) {
@@ -14,6 +15,11 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 140)
       frontmatter {
         title
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
       }
     }
     site {
@@ -34,60 +40,37 @@ const Contact = ({ data }) => {
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
-      <div className="wrapper">
-        <h1>{frontmatter.title}</h1>
-        <div
-          className="description"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-        <form
-          className="contact-form"
-          action="/thanks"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
-          <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>
-              Name
-              <input type="text" name="name" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Email
-              <input type="email" name="email" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Subject
-              <input type="text" name="subject" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Message<textarea name="message" required></textarea>
-            </label>
-          </p>
-          <p className="text-align-right">
-            <button
-              className="button"
-              sx={{
-                variant: "variants.button",
-              }}
-              type="submit"
-            >
-              Send Message{" "}
-              <span className="icon -right">
-                <RiSendPlane2Line />
-              </span>
-            </button>
-          </p>
-        </form>
-      </div>
+      <section>
+        <div className="container is-fullhd mrb-container">
+          <div
+            className="description"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+          <div className="columns is-variable is-8">
+            <div className="column is-flex is-flex-direction-column is-justify-content-center">
+              <span className="has-text-weight-semibold mrb-label">WYCENA</span>
+              <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-color-primary-green">{frontmatter.title}</h1>
+                <ContactForm/>
+            </div>
+            <div className="column is-flex is-flex-direction-column is-justify-content-center">
+              <GatsbyImage
+                image={getImage(frontmatter.image)}
+                objectFit={"cover"}
+                style={{
+                  gridArea: "1/1",
+                  // You can set a maximum height for the image, if you wish.
+                  width: "100%",
+                }}
+                // You can optionally force an aspect ratio for the generated image
+                aspectratio={3 / 1}
+                // This is a presentational image, so the alt should be an empty string
+                alt=""
+                formats={["auto", "webp", "avif"]}
+              />
+              </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }

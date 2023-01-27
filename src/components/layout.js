@@ -6,7 +6,9 @@ import Header from "./header"
 import Logo from "./logo"
 import Navigation from "./navigation"
 
+import "../bulma.scss"
 import "../assets/scss/style.scss"
+
 import Footer from "./footer"
 
 const query = graphql`
@@ -26,7 +28,9 @@ const Layout = ({ children, className, props }) => {
   return (
     <div>
       <Header>
-      <Logo title={siteTitle} />
+        <div>
+
+        </div>
         <div sx={layoutStyle.nav}>
           <Navigation />
         </div>
@@ -34,7 +38,9 @@ const Layout = ({ children, className, props }) => {
           
         </div>
       </Header>
-
+      <div className="container small-margin-container">
+        <Logo title={siteTitle} />
+      </div>
       <main>{children}</main>
       <Footer />
     </div>

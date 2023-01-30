@@ -22,7 +22,44 @@ $secondary-black-80: rgba(33, 35, 38, 0.8);
 $secondary-black-60: rgba(33, 35, 38, 0.6);
 
 .is-color-white {
-  color: white !important
+  color: whitesmoke !important
+}
+
+.has-text-white-ter {
+  color: whitesmoke !important;
+}
+
+.is-background-secondary-dark{
+  background-color: $secondary-black !important
+}
+
+.navbar-item {
+  &:hover {
+    color: $primary-green !important;
+  }
+}
+
+.mrb-socials {
+  font-size: 2em;
+  display: flex;
+  gap: .75rem;
+  margin-top: 0.5rem;
+}
+    
+.mrb-menu {
+  .menu-list{
+    margin-top: .25rem;
+    .navbar-item {
+      padding: .3rem 0;
+      color: white !important;
+      background-color: transparent;
+      &:hover {
+        color: white !important;
+        background-color: transparent;
+        opacity: .7;
+      } 
+    }
+  }
 }
   
 

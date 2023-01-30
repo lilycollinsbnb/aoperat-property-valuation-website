@@ -57,7 +57,7 @@ const Pagination = props => (
             <span className="icon -left">
               <RiArrowLeftLine />
             </span>{" "}
-            Previous
+            Poprzednia
           </Link>
         </li>
       )}
@@ -74,7 +74,7 @@ const Pagination = props => (
       {!props.isLast && (
         <li>
           <Link to={props.nextPage} rel="next">
-            Next{" "}
+            Następna{" "}
             <span className="icon -right">
               <RiArrowRightLine />
             </span>
@@ -120,9 +120,11 @@ class BlogIndex extends React.Component {
           <h3 className="has-text-weight-semibold is-size-4-mobile is-size-3-tablet is-size-2-widescreen is-color-primary-green">
             Aktualności
           </h3>
-          <div className="grids col-1 sm-2 lg-3">{posts}</div>  
+          <div className="grids col-1 sm-2 lg-3">{posts}</div>
+          <div className="is-centered buttons">
+            <Pagination {...props} />
+          </div>
         </div>
-        <Pagination {...props} />
       </Layout>
     )
   }

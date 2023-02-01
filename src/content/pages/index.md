@@ -4,19 +4,18 @@ slug: /
 title: Wyatt Morriss
 tagline: Graphic Designer
 featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+carouselItems:
+  - image: /assets/rzeczoznawca.png
+    text: Jesteśmy profesjonalistami w wycenie nieruchomości
+    redirectTo: /about
+  - image: /assets/pexels-jéshoots-144230.jpg
+    text: Wyceń nieruchomość bez wychodzenia z domu
+    redirectTo: /services
+  - image: /assets/pexels-photomix-company-887751.jpg
+    text: Skontaktuj się z nami
+    redirectTo: /contact
 cta:
   ctaText: Know more
   ctaLink: /about
-carouselItems:
-  - image: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
-    text: "Test"
-    redirectTo: /contact
-  - image: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
-    text: "Test"
-    redirectTo: /contact
-  - image: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
-    text: "Test"
-    redirectTo: /contact
 ---
-
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+b﻿ody

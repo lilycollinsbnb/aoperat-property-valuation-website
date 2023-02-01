@@ -210,6 +210,16 @@ const Footer = () => {
                 <section className="menu mrb-menu">
                   <ul className="menu-list">
                     <li>
+                      <Link className="navbar-item" to="/terms-and-conditions">
+                        Regulamin
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/privacy-policy">
+                        Polityka prywatności
+                      </Link>
+                    </li>
+                    <li>
                       <a
                         className="navbar-item"
                         href="/admin/"

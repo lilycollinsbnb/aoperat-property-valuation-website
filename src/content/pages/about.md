@@ -1,7 +1,7 @@
 ---
 template: about-page
 slug: /about
-title: O Nas
-subheading: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-image: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: O nas
+subheading: Jesteśmy firmą zajmującą się wyceną nieruchomości. Celem naszej działaności jest ułatwienie klientom znalezienia rzeczoznawcy dostosowanego do ich potrzeb.
+image: /assets/pexels-alex-staudinger-1732414.jpg
 ---

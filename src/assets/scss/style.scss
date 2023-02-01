@@ -39,6 +39,16 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
   }
 }
 
+.ul-style ul {
+  list-style-type: disc;
+  li {
+    margin-bottom: 1.5rem;
+  }
+  li:first-child {
+    margin-top: 1.5rem;
+  }
+}
+
 .mrb-socials {
   font-size: 2em;
   display: flex;

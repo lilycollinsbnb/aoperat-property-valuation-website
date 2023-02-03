@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
-import Content, { HTMLContent } from "../components/Content";
+import Content, { HTMLContent } from "../components/content"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 

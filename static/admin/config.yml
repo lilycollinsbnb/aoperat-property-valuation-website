@@ -64,7 +64,7 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - file: "src/content/pages/privacy-policy/index.md"
+      - file: "src/content/pages/privacy-policy.md"
         label: "Privacy Policy Page"
         name: "privacy-policy"
         fields:
@@ -78,7 +78,7 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           
-      - file: "src/content/pages/terms-and-conditions/index.md"
+      - file: "src/content/pages/terms-and-conditions.md"
         label: "Terms And Conditions Page"
         name: "terms-and-conditions"
         fields:
@@ -102,9 +102,6 @@ collections:
               default: "index-page",
             }
           - { label: "Slug", name: "slug", widget: "hidden", default: "/" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Tagline", name: "tagline", widget: "string" }
-          - { label: "Featured Image", name: "featuredImage", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
           - label: "Carousel Items"
             name: "carouselItems"
@@ -115,16 +112,6 @@ collections:
                 - {label: Image, name: image, widget: image}
                 - {label: Text, name: text, widget: string}
                 - {label: Redirect To, name: redirectTo, widget: string}
-          - label: "CTA"
-            name: "cta"
-            widget: "object"
-            fields:
-              - name: "ctaText"
-                label: "CTA text"
-                widget: "string"
-              - name: "ctaLink"
-                label: "CTA Link"
-                widget: "string"
       - label: "About"
         name: "about"
         file: "src/content/pages/about.md"
@@ -188,7 +175,7 @@ collections:
               default: "/services",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Subheading", name: "subheading", widget: "string" }
+          - { label: "Subheading", name: "subheading", widget: "text" }
           - {
               label: "Image",
               name: "image",
@@ -196,7 +183,11 @@ collections:
               required: false,
               tagname: "",
             }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "List Section Title", name: "listSectionTitle", widget: "string" }
+          - { label: "List Items", name: "listItems", widget: "list"}
+          - { label: "Contact Section Title", name: "contactSectionTitle", widget: "string" }
+          - { label: "Contact Section Text", name: "contactSectionText", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
   - name: settings
     label: Settings
     files:

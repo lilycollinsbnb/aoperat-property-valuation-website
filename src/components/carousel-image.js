@@ -5,11 +5,11 @@ import { getImage } from "gatsby-plugin-image";
 
 export default function CarouselImage(props) {
   const {
-    height = 400,
     img,
     text,
-    imgPosition = "center right",
+    imgPosition = "top center",
     objectFit = "cover",
+    aspectratio = 3/1,
     redirectTo,
   } = props;
 
@@ -26,14 +26,14 @@ export default function CarouselImage(props) {
             src={img}
             objectFit={objectFit}
             objectPosition={imgPosition}
+            className="carousel-image-height"
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              height: height,
               width: "100%",
             }}
             // You can optionally force an aspect ratio for the generated image
-            aspectratio={3 / 1}
+            aspectratio={aspectratio}
             // This is a presentational image, so the alt should be an empty string
             alt=""
             formats={["auto", "webp", "avif"]}
@@ -43,14 +43,14 @@ export default function CarouselImage(props) {
             image={getImage(img)}
             objectFit={objectFit}
             objectPosition={imgPosition}
+            className="carousel-image-height"
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              height: height,
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
-            aspectratio={3 / 1}
+            aspectratio={aspectratio}
             // This is a presentational image, so the alt should be an empty string
             alt=""
             formats={["auto", "webp", "avif"]}

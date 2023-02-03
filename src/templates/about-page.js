@@ -23,6 +23,24 @@ export const pageQuery = graphql`
     }
   }
 `
+export const AboutPageTemplate = ({title, subheading, image, content, contentComponent}) => {
+  const PageContent = contentComponent || Content;
+
+  return (
+    <div>
+      <ImageRightSection TitleTag={"h1"} title={title} subheading={subheading} img={image} />
+      <div className="container is-fullhd mrb-container">
+        <PageContent className="content" content={content} />
+        <div className="buttons is-centered">
+          <Link className="button mrb-button mrb-button-light" to="/services">
+            Sprawdź naszą ofertę
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 const AboutPage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
@@ -30,15 +48,14 @@ const AboutPage = ({ data }) => {
   return (
     <Layout className="page">
       <Seo title={frontmatter.title} description={excerpt} />
-      <ImageRightSection TitleTag={"h1"} title={frontmatter.title} subheading={frontmatter.subheading} img={frontmatter.image} />
-      <div className="container is-fullhd mrb-container">
-          <HTMLContent className="content" content={html}/>
-          <div className="buttons is-centered">
-            <Link className="button mrb-button mrb-button-light" to="/services">
-              Sprawdź naszą ofertę
-            </Link>
-          </div>
-      </div>
+      <AboutPageTemplate
+        contentComponent={HTMLContent}
+        title={frontmatter.title}
+        seoDescription={excerpt}
+        subheading={frontmatter.subheading}
+        image={frontmatter.image}
+        content={html}
+      />
     </Layout>
   )
 }

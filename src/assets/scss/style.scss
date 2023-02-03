@@ -52,8 +52,12 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
 .mrb-socials {
   font-size: 2em;
   display: flex;
+  flex-wrap: wrap;
   gap: .75rem;
   margin-top: 0.5rem;
+  @media (max-width: 600px) {
+    font-size: 1.5em;
+  }
 }
     
 .mrb-menu {
@@ -79,8 +83,11 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+
 .is-centered {
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
 }
 
 .primary-container main {
@@ -485,6 +492,7 @@ article img {
     list-style: none;
     margin: 0;
     padding: 0;
+    width: 100%;
   }
   ul li {
     display: inline-block;

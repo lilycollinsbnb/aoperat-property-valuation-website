@@ -19,10 +19,56 @@ export const pageQuery = graphql`
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
+        listSectionTitle,
+        listItems,
+        contactSectionTitle,
+        contactSectionText,
       }
     }
   }
 `
+
+export const ServicesPageTemplate = ({ title, subheading, image, listSectionTitle, listItems, contactSectionTitle, contactSectionText, content, contentComponent }) => {
+  const PageContent = contentComponent || Content;
+
+  return (
+    <div>
+      <ImageRightSection TitleTag={"h1"} title={title} subheading={subheading} img={image} />
+      <section>
+        <div className="container is-fullhd mrb-container">
+            <div className="is-centered">
+              <h3 className="has-text-weight-semibold is-size-4-mobile is-size-3-tablet is-size-2-widescreen is-color-primary-green">
+                {listSectionTitle}
+              </h3>
+            </div>
+            <div className="ul-style is-centered ">
+              <ul>
+                {listItems.map((item) => (<li>{item}</li>)) }
+              </ul>
+            </div>
+        </div>
+      </section>
+      <PageContent className="content" content={content} />
+      <section>
+        <div className="container is-fullhd mrb-container">
+            <div className="is-centered">
+              <h3 className="has-text-weight-semibold is-size-4-mobile is-size-3-tablet is-size-2-widescreen is-color-primary-green">
+                {contactSectionTitle}
+              </h3>
+            </div>
+            <div className="is-centered">
+              {contactSectionText}
+            </div>
+            <div className="is-centered">
+              <Link className="button mrb-button mrb-button-light" to="/contact">
+                Kontakt
+              </Link>
+            </div>
+        </div>
+      </section>
+    </div>
+  )
+}
 const ServicesPage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
@@ -30,41 +76,17 @@ const ServicesPage = ({ data }) => {
   return (
     <Layout className="page">
       <Seo title={frontmatter.title} description={excerpt} />
-      <ImageRightSection TitleTag={"h1"} title={frontmatter.title} subheading={frontmatter.subheading} img={frontmatter.image} />
-      <section>
-        <div className="container is-fullhd mrb-container">
-            <div className="buttons is-centered">
-              <h3 className="has-text-weight-semibold is-size-4-mobile is-size-3-tablet is-size-2-widescreen is-color-primary-green">
-                Jak to działa?
-              </h3>
-            </div>
-            <div className="ul-style buttons is-centered ">
-              <ul>
-                <li>Wysyłasz do nas szczegóły zlecenia</li>
-                <li>Nasz rzeczoznawca kontaktuje się z Tobą <br/> i ustala datę oględzin nieruchomości</li>
-                <li>Po dokonaniu oględzin nieruchomości rzeczoznawca <br/> sporządza dokument wyceny i przesyła go <br/> Tobie drogą mailową</li>
-              </ul>
-            </div>
-        </div>
-      </section>
-      <section>
-        <div className="container is-fullhd mrb-container">
-            <div className="buttons is-centered">
-              <h3 className="has-text-weight-semibold is-size-4-mobile is-size-3-tablet is-size-2-widescreen is-color-primary-green">
-                Napisz do nas
-              </h3>
-            </div>
-            <div className="buttons is-centered">
-              Nasi rzeczoznawcy posiadają wieloletnie doświadczenie w zakresie wyceny lokali mieszklanych w dużych miastach.
-              Koszt usługi jest zawsze ustalany indywidualnie. Wyślij nam szczegóły zlecenia, a my skontaktujemy się z Tobą.
-            </div>
-            <div className="buttons is-centered">
-              <Link className="button mrb-button mrb-button-light" to="/contact">
-                Kontakt
-              </Link>
-            </div>
-        </div>
-      </section>
+      <ServicesPageTemplate 
+        title={frontmatter.title}
+        subheading={frontmatter.subheading}
+        image={frontmatter.image}
+        listSectionTitle={frontmatter.listSectionTitle}
+        listItems={frontmatter.listItems}
+        contactSectionTitle={frontmatter.contactSectionTitle}
+        contactSectionText={frontmatter.contactSectionText}
+        contentComponent={HTMLContent}
+        content={html}
+      />
     </Layout>
   )
 }

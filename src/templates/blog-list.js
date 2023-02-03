@@ -121,7 +121,7 @@ class BlogIndex extends React.Component {
             Aktualności
           </h3>
           <div className="grids col-1 sm-2 lg-3">{posts}</div>
-          <div className="is-centered buttons">
+          <div className="is-centered">
             <Pagination {...props} />
           </div>
         </div>

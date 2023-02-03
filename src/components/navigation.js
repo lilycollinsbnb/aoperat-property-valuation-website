@@ -2,32 +2,6 @@
 import { jsx } from "theme-ui"
 import React from "react"
 import { Link } from "gatsby"
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
-
-const MenuItems = [
-  {
-    path: "/about",
-    title: "O Nas",
-  },
-  {
-    path: "/services",
-    title: "Usługi"  
-  },
-  {
-    path: "/blog",
-    title: "Aktualności",
-  },
-  {
-    path: "/contact",
-    title: "Kontakt",
-  },
-]
-
-const ListLink = props => (
-  <li>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
 
 const Navigation = class extends React.Component {
   constructor(props) {
@@ -110,20 +84,3 @@ const Navigation = class extends React.Component {
 };
 
 export default Navigation
-
-const navStyle = {
-  menu: {
-    ul: {
-      bg: "navbarColor",
-    },
-  },
-  theme: {
-    display: ["block", "block", "block", "none"],
-    p: " 25px 20px 20px",
-  },
-  border: {
-    bg: "borderColor",
-    borderTop: "1px solid transparent",
-    display: ["block", "block", "block", "none"],
-  },
-}

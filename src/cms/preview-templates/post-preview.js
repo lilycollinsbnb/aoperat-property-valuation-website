@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { PostTemplate } from '../../templates/blog-post'
+import PostBody from '../../templates/body/blog-post-body'
 
 const PostPreview = ({ entry, getAsset, widgetFor }) => {
   const image = entry.getIn(['data', 'featuredImage'])
 
   return (
-    <PostTemplate
+    <PostBody
       content={widgetFor('body')}
       title={entry.getIn(['data', 'title'])}
       image={getAsset(image)}

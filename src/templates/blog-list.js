@@ -84,6 +84,7 @@ const Pagination = props => (
     </ul>
   </div>
 )
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
@@ -111,9 +112,9 @@ class BlogIndex extends React.Component {
     return (
       <Layout className="blog-page">
         <Seo
-          title={"Blog — Page " + currentPage + " of " + numPages}
+          title={"Blog — Strona " + currentPage + " z " + numPages}
           description={
-            "Stackrole base blog page " + currentPage + " of " + numPages
+            "Wycena Blog - strona " + currentPage + " z " + numPages
           }
         />
         <div className="container is-fullhd mrb-container">

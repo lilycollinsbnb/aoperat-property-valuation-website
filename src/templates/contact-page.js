@@ -32,25 +32,20 @@ export const pageQuery = graphql`
 
 const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter } = markdownRemark
 
   return (
     <Layout className="contact-page" sx={contactStyles.contactPage}>
       <Seo
-        title={frontmatter.title}
+        title={"Wycena - Kontakt"}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
       <section>
         <div className="container is-fullhd mrb-container">
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
           <div className="columns is-variable is-8">
             <div className="column is-flex is-flex-direction-column is-justify-content-center">
-              <span className="has-text-weight-semibold mrb-label">WYCENA</span>
               <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-color-primary-green">{frontmatter.title}</h1>
-                <ContactForm/>
+              <ContactForm/>
             </div>
             <div className="column is-flex is-flex-direction-column is-justify-content-center">
               <GatsbyImage

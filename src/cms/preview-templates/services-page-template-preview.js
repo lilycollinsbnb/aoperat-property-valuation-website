@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ServicesPageTemplate } from '../../templates/services-page'
+import ServicesPageBody from '../../templates/body/services-page-body';
 
 const ServicesPagePreview = ({ entry, getAsset, widgetFor }) => {
   const data = entry.getIn(['data']).toJS();
   return (
-    <ServicesPageTemplate
+    <ServicesPageBody
       title={data.title}
       subheading={data.subheading}
       image={getAsset(data.image)}

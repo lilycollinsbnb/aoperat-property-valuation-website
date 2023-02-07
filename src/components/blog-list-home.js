@@ -29,7 +29,7 @@ export const blogListQuery = graphql`
   }
 `
 
-const BlogListHome = ({data}) => {
+const BlogListHome = () => {
   return <StaticQuery 
     query={blogListQuery}
     render={(data) => {

@@ -1,11 +1,9 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { graphql} from "gatsby"
-
 import Layout from "../components/layout"
-import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
-import Carousel from "../components/carousel"
+import HomePageBody from "./body/index-page-body"
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -26,22 +24,6 @@ export const pageQuery = graphql`
   }
 `
 
-export const HomePageTemplate = ({carouselItems}) => {
-
-  return (
-    <div >
-      <Carousel items={carouselItems} />
-      <section>
-        <div className="container is-fullhd mrb-container">
-          <h3 className="has-text-weight-semibold is-size-4-mobile is-size-3-tablet is-size-2-widescreen is-color-primary-green">
-            Aktualności
-          </h3> 
-          <BlogListHome />
-        </div>
-      </section>
-    </div>
-  )
-}
 const HomePage = ({ data }) => {
   const { markdownRemark} = data // data.markdownRemark holds your post data
   const { frontmatter } = markdownRemark
@@ -49,7 +31,7 @@ const HomePage = ({ data }) => {
   return (
     <Layout>
       <Seo />
-      <HomePageTemplate 
+      <HomePageBody
         carouselItems={frontmatter.carouselItems}
       />
     </Layout>

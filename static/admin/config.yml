@@ -157,7 +157,7 @@ collections:
               required: false,
               tagname: "",
             }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", required: false}
       - label: "Services"
         name: "services"
         file: "src/content/pages/services.md"

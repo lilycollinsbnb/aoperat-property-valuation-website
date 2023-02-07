@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { AboutPageTemplate } from '../../templates/about-page'
+import AboutPageBody from '../../templates/body/about-page-body';
+
 
 const AboutPagePreview = ({ entry, getAsset, widgetFor }) => {
   const data = entry.getIn(['data']).toJS();
   return (
-    <AboutPageTemplate
+    <AboutPageBody
       title={data.title}
       subheading={data.subheading}
       image={getAsset(data.image)}

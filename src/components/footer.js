@@ -18,7 +18,7 @@ import {
   RiMediumFill,
   RiBehanceFill,
 } from "react-icons/ri"
-import { FaTiktok, FaWordpress, FaVk } from "react-icons/fa"
+import { FaWordpress, FaVk } from "react-icons/fa"
 import Icons from "../util/socialmedia.json"
 import Logo from "./logo"
 
@@ -119,13 +119,6 @@ const Footer = () => {
         {icons.icon === "wordpress" ? (
           <a href={icons.url} target="_blank" aria-label="link to Wordpress" rel="noopener noreferrer">
             <FaWordpress alt="Wordpress icon" />
-          </a>
-        ) : (
-          ""
-        )}
-        {icons.icon === "tiktok" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Wordpress" rel="noopener noreferrer">
-            <FaTiktok alt="tiktok icon" />
           </a>
         ) : (
           ""

@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { HomePageTemplate } from '../../templates/index-page'
+import HomePageBody from '../../templates/body/index-page-body'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
 
   if (data) {
     return (
-      <HomePageTemplate
+      <HomePageBody
         carouselItems={data.carouselItems.map(x => {return {image: getAsset(x.image), text: x.text}})}
       />
     )

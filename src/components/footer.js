@@ -17,6 +17,7 @@ import {
   RiDribbbleFill,
   RiMediumFill,
   RiBehanceFill,
+  RiVimeoFill,
 } from "react-icons/ri"
 import { FaWordpress, FaVk } from "react-icons/fa"
 import Icons from "../util/socialmedia.json"
@@ -147,6 +148,13 @@ const Footer = () => {
         {icons.icon === "vk" ? (
           <a href={icons.url} target="_blank" aria-label="link to vk" rel="noopener noreferrer">
             <FaVk alt="vk icon" />
+          </a>
+        ) : (
+          ""
+        )}
+        {icons.icon === "vimeo" ? (
+          <a href={icons.url} target="_blank" aria-label="link to vimeo" rel="noopener noreferrer">
+            <RiVimeoFill alt="vimeo icon" />
           </a>
         ) : (
           ""

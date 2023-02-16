@@ -25,9 +25,7 @@ const PostCard = ({ data }) => (
       <h2 className="title">
         <Link
           to={data.frontmatter.slug}
-          sx={{
-            variant: "links.postLink",
-          }}
+          className="is-color-secondary-black"
         >
           {data.frontmatter.title}
         </Link>

@@ -2,15 +2,11 @@
   "socialIcons": [
     {
       "icon": "facebook",
-      "url": "https://www.facebook.com/stackrolecom"
+      "url": "https://www.facebook.com/groups/aoperat/"
     },
     {
-      "icon": "linkedin",
-      "url": "https://in.linkedin.com/company/stackrole"
-    },
-    {
-      "icon": "youtube",
-      "url": "https://www.youtube.com/channel/UCc1hYgIP_DzFMMzwLRcbDVQ"
+      "icon": "vimeo",
+      "url": "https://vimeo.com/user161246910"
     }
   ]
 }

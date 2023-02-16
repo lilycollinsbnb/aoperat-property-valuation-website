@@ -103,11 +103,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Foundation`,
-        short_name: `Foundation`,
+        name: `Wycena.biz`,
+        short_name: `Wycena`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#ffffff`,
+        theme_color: `#4C9C62`,
         display: `standalone`,
         icon: "static" + settings.meta.iconimage,
       },

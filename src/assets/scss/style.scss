@@ -21,6 +21,10 @@ $secondary-black: rgba(33, 35, 38, 1);
 $secondary-black-80: rgba(33, 35, 38, 0.8);
 $secondary-black-60: rgba(33, 35, 38, 0.6);
 
+.is-color-secondary-black {
+  color: $secondary-black !important
+}
+
 .is-color-white {
   color: whitesmoke !important
 }

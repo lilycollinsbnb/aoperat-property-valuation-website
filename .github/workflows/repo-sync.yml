@@ -1,8 +1,11 @@
 name: Repo Sync
 
 on:
-  schedule: 
-  - cron: "*/15 * * * *" # every 15 minutes
+  schedule:
+  - cron: "*/15 * * * *" # every 15 minutes. set to whatever interval you like
+  push:
+    branches: [ master ]
+
 
 jobs:
   repo-sync:
@@ -14,12 +17,12 @@ jobs:
       name: Sync repo to branch
       with:
         source_repo: ${{ secrets.SOURCE_REPO }}
-        source_branch: main
+        source_branch: master
         destination_branch: ${{ secrets.INTERMEDIATE_BRANCH }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
     - uses: repo-sync/pull-request@v2
       name: Create pull request
       with:
         source_branch: ${{ secrets.INTERMEDIATE_BRANCH }}
-        destination_branch: main
+        destination_branch: master
         github_token: ${{ secrets.GITHUB_TOKEN }}

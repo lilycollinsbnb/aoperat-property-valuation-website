@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "title": "Wycena.biz",
+    "titleTemplate": "%s",
+    "description": "Wyceniamy nieruchomości.",
+    "siteUrl": "https://wycena.biz",
+    "image": "/assets/aoperat-logo-transparent.png",
+    "iconimage": "/assets/aoperat-logo-transparent.png"
+  },
+  "ga": "UA-XXXXXXXXX-X"
+}

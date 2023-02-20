@@ -1,0 +1,301 @@
+.container {
+  margin: 0 auto;
+  max-width: 1344px;
+  padding: 0 0;
+}
+
+// .container {
+//   margin: 0 auto;
+//   max-width: 1240px;
+//   padding: 0 20px;
+// }
+
+.carousel-text-area {
+  grid-column: 2;
+  background: rgba(76, 156, 98, 0.75);
+  height:45%;
+  display: grid;
+  text-align: center;
+}
+
+.carousel-image-height {
+  height: 300px;
+}
+
+.small-margin-container {
+  position: relative;
+  margin: 1rem auto 1rem auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+.mrb-container {
+  position: relative;
+  margin: 2rem auto 3rem auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+  
+.mrb-columns-wrapper {
+  margin-top: .25rem;
+  margin-bottom: .5rem;
+}
+  
+.mrb-footer-container {
+  padding: 0 1rem 1rem 1rem
+  columns {
+    width: 100%
+  }
+}
+
+@media (min-width: 600px) {
+  .mrb-container {
+    margin: 1rem auto 3rem auto;
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+
+  .mrb-box {
+    padding: 3rem 2rem
+  }
+
+  .carousel-text-area {
+    grid-column: 2;
+    background: rgba(76, 156, 98, 0.75);
+    height:45%;
+    display: grid;
+    text-align: center;
+  }
+
+  .carousel-image-height {
+    height: 350px;
+  }
+}
+  
+
+
+@media (min-width: 750px) {
+  .is-size-3-tablet {
+    font-size: 2rem!important;
+  }
+  
+  .mrb-container {
+    margin: 2rem auto 3rem auto
+  }
+  
+
+  .mrb-columns-wrapper {
+    margin-top: .75rem
+  }
+  
+  .mrb-label {
+    font-size: 1.25rem
+  }
+
+  .mrb-box {
+    .columns {
+      height: 300px;
+      p {
+        padding-left: 2rem;
+      }
+    }
+
+    .carousel-text-area {
+      grid-column: 2;
+      background: rgba(76, 156, 98, 0.75);
+      height:40%;
+      display: grid;
+      text-align: center;
+    }
+
+    .carousel-image-height {
+      height: 500px;
+    }
+
+    .mrb-scroll-arrow {
+      position: absolute;
+      left: 50%;
+      bottom: 40px;
+      transform: translateX(-50%);
+    }
+      
+  }
+    
+}
+  
+@media (min-width: 950px) {
+  .carousel-image-height {
+    height: 550px;
+  }
+
+  .carousel-text-area {
+    grid-column: 2;
+    background: rgba(76, 156, 98, 0.75);
+    height:35%;
+    display: grid;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1023px) {
+  
+  .mrb-container {
+    margin: 2rem auto 4rem auto
+  }
+  
+  .mrb-navbar-container {
+    padding: .75rem 1.5rem 0rem 1.5rem;
+    .navbar-brand{
+      flex: 33%
+    }
+
+    .navbar-menu {
+      flex: 67%;
+
+      .navbar-start {
+        margin: 0 auto;
+        justify-content: center;
+        gap: 14px;
+      }
+
+      .navbar-start, .navbar-end {
+        flex: 50%;
+        align-items: center;
+      }
+    }
+  }
+
+  .mrb-columns-wrapper {
+    margin-top: 1.75rem;
+  }
+  
+  .mrb-footer-container {
+    padding: 3rem 2rem 6rem 2rem;
+  }
+  
+  .mrb-logo {
+    width: 300px !important;
+    max-height: unset !important;
+  }
+
+  .mrb-menu {
+    .menu-list {
+      margin-top: 1.25rem
+    }
+  }
+  
+  .mrb-socials {
+    margin-top: 1.25rem
+  }
+  
+  .mrb-box {
+    padding: 5rem !important;
+    .mrb-scroll-arrow {
+      bottom: 4.5rem
+    }
+  }
+  
+} 
+
+
+@media (min-width: 1380px) {
+  .mrb-logo {
+    width: 300px !important
+  }
+  
+  .carousel-image-height {
+    height: 660px;
+  }
+
+  .carousel-text-area {
+    grid-column: 2;
+    background: rgba(76, 156, 98, 0.75);
+    height:33%;
+    display: grid;
+    text-align: center;
+  }
+
+  .mrb-container {
+    margin: 4rem auto 7rem auto;
+    padding: 0;
+  }
+
+  .mrb-navbar-container {
+    padding: 1rem .75rem 0rem .75rem;
+  }
+    
+}
+
+// Carousel
+.carousel-container {
+  margin: 2rem auto 3rem auto
+}
+  
+
+.is-carousel-item {
+  background-color: rgba(76, 156, 98, 1);
+  color: white;
+}
+  
+
+.slick-dots li.slick-active button:before {
+  color: rgba(76, 156, 98, 1) !important;
+}
+  
+
+.slick-dots li button:before {
+  color: rgba(76, 156, 98, 1) !important;
+}
+  
+
+.carousel-content-grid-wrapper {
+  display: grid;
+  grid-template-columns: 1.5fr 97fr 1.5fr;
+  align-items: end;
+}
+  
+
+.is-max-width-1 {
+  max-width: 500px
+}
+  
+.is-max-width-2 {
+  max-width: 300px
+}
+  
+.mrb-blog-container, .mrb-carrer-container {
+  .mrb-blog-thumb, .mrb-carrer-thumb{
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  h1,h2,h3 {
+    color: rgba(76, 156, 98, 1) !important;
+  }
+  
+  h2,h3 {
+    margin-top: 1.8rem
+  }
+
+  a {
+    color: rgba(33, 35, 38, 1);
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  .no-margin-top {
+    margin-top: 0 !important;
+  }
+}
+  
+ 
+  
+
+   
+  
+    
+ 
+

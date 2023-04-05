@@ -7,7 +7,7 @@ backend:
     delete: "Delete {{collection}} “{{slug}}”"
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
-local_backend: true
+local_backend: false
 # Uncomment local_backend when you need to develop in your local
 #local_backend: true # run `npx netlify-cms-proxy-server` for local testing
 
@@ -229,10 +229,6 @@ collections:
                 label: Twitter
                 required: false
 
-          - label: "Google Analytics"
-            name: ga
-            widget: string
-            hint: "Add you tracking ID, for example UA-XXXXXXXXX-X"
       - label: Social Icons
         name: socialIcons
         file: "src/util/socialmedia.json"

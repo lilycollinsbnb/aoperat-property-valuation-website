@@ -33,6 +33,10 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
   color: whitesmoke !important;
 }
 
+.is-background-primary-green {
+  background-color: $primary-green
+}
+
 .is-background-secondary-dark{
   background-color: $secondary-black !important
 }
@@ -79,6 +83,17 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
     }
   }
 }
+
+.cookie-consent-container {
+  padding: 10px 10px 10px 10px
+}
+  
+
+.cookie-consent-buttons-wrapper {
+  justify-content: space-between !important;
+  display: flex;
+  flex-flow: row wrap;
+}
   
 
 .buttons {
@@ -88,6 +103,20 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
   justify-content: flex-start;
 }
 
+.btn-primary {
+  background-color: $secondary-black !important;
+  border-color: $secondary-black !important;
+  color: white !important;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background-color: $secondary-black !important;
+  border-color: $secondary-black !important;
+  color: white !important;
+  box-shadow: none;
+}
+  
 .is-centered {
   display: flex;
   align-items: center;

@@ -45,7 +45,7 @@ const BlogListHome = () => {
 const PostMaker = ({ data }) => (
   <div>
     <section className="home-posts">
-      <div className="grids col-1 sm-2 lg-3">{data}</div>
+      <div className="grids sm-2 lg-3">{data}</div>
       <div className="buttons is-centered ">
         <Link className="button mrb-button mrb-button-light" to="/blog">
            Czytaj więcej

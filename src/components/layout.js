@@ -54,6 +54,7 @@ const Layout = ({ children, className, props }) => {
         personalizeValidationText="Zapisz"
         cookies={[
                 {name: 'necessary', editable: false, default: true, title: 'Niezbędne pliki cookie', text: 'Pliki niezbędne do poprawnego funkcjonowania strony.' },
+                {name: 'gatsby-gdpr-google-analytics', editable: true, default: false, title: 'Google Analytics', text: 'Google Analytics to narzędzie statystyczne stworzone przez Google pozwalające na analizę ruchu sieciowego i sposobu korzystania z naszej strony.'},
                 {name: 'gatsby-gdpr-facebook-pixel', editable: true, default: false, title: 'Facebook Pixel', text: 'Facebook Pixel pomaga nam w poprawianiu komfortu korzystania ze strony i udostępnia nam informacje w jaki sposób odwiedzający korzystają ze strony i jakie elementy przykuwają ich uwagę.'}
           ]}>
           <h3 className="is-color-white">Ta strona korzysta z plików cookies.</h3>

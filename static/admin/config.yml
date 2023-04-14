@@ -13,6 +13,7 @@ local_backend: false
 
 media_folder: "static/assets"
 public_folder: "/assets"
+publish_mode: editorial_workflow
 
 collections:
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit

@@ -57,6 +57,29 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
   }
 }
 
+// Forms
+.checkbox-field {
+  margin-top: 1rem;
+  white-space: nowrap;
+  input {
+    margin-right: 1rem;
+    display:inline-block;
+  }
+  label {
+    white-space: normal;
+    display:inline-block;
+  }
+}
+
+.mrb-text-div {
+  text-align: justify;
+  a {
+    color: $secondary-black;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
 // Popup
 
 .popup-content-div {
@@ -572,7 +595,16 @@ article img {
   label {
     color: var(--label-text);
   }
-  input,
+  .text-input {
+    width: 100%;
+    max-width: 100%;
+    margin: 8px 0 16px;
+    padding: 16px;
+    border-radius: 12px;
+    appearance: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
   textarea {
     width: 100%;
     max-width: 100%;

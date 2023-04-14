@@ -2,12 +2,16 @@ import React from "react"
 import Popup from 'reactjs-popup';
 import { Link } from "gatsby";
 import 'reactjs-popup/dist/index.css';
+import { useForm } from "@formspree/react";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 export default function FreeTrialPopup () {
 
-    const handleSubmit = async (event) => {
-        event.preventDefault()
-    }
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
+  const [state, handleSubmit] = useForm(`${process.env.GATSBY_FORMSPREE_FORM_ID}`, {
+    data: { "g-recaptcha-response": executeRecaptcha }
+  })
 
     return (
         <Popup 
@@ -32,19 +36,22 @@ export default function FreeTrialPopup () {
             Skorzystaj z promocji! <b>-20%</b> rabatu na <b>pierwszą</b> wycenę nieruchomości. Zostaw swój adres mailowy, jeśli  jesteś zainteresowany.
             </div>
             <div className="center-content mt-3">
-              <form onSubmit={handleSubmit}>
+              <form 
+                className="contact-form"
+                name="contact"
+                onSubmit={handleSubmit}
+              >
                 <div className="field">
                   <label className="label mrb-label-hidden" htmlFor={"email"}>
                     Adres email
                   </label>
                     <div className="control">
                       <input
-                        className="input"
+                        className="text-input"
                         type={"email"}
                         name={"email"}
                         id={"email"}
                         placeholder={"Adres email"}
-                        // onChange={e => {e.preventDefault(); setEmail(e.target.value)} }
                         required={true}
                       />
                     </div>
@@ -55,8 +62,6 @@ export default function FreeTrialPopup () {
                       type={"checkbox"}
                       name={"consent-to-contact"}
                       id={"consent-to-contact"}
-                      // checked={consentToContact}
-                      // onChange={e => {setConsentToContact(!consentToContact)} }
                       required={true}
                       
                     />

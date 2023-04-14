@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HomePageBody from "./body/index-page-body"
 import FreeTrialPopup from "../components/free-trial-popup"
-import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3"
+// import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3"
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -33,7 +33,7 @@ const HomePage = ({ data }) => {
   const isSSR = typeof window === "undefined"
 
   return (
-    <GoogleReCaptchaProvider reCaptchaKey={process.env.GATSBY_GOOGLE_RECAPTCHA_SITE_KEY}>
+    // <GoogleReCaptchaProvider reCaptchaKey={process.env.GATSBY_GOOGLE_RECAPTCHA_SITE_KEY}>
     <Layout>
       <Seo />
       { !isSSR &&
@@ -47,7 +47,7 @@ const HomePage = ({ data }) => {
         carouselItems={frontmatter.carouselItems}
       />
     </Layout>
-    </GoogleReCaptchaProvider>
+    // </GoogleReCaptchaProvider>
   )
 }
 

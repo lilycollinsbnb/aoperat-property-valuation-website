@@ -2,17 +2,20 @@ import React from "react"
 import Popup from 'reactjs-popup';
 import { Link } from "gatsby";
 import 'reactjs-popup/dist/index.css';
-import { useForm } from "@formspree/react";
-import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+// import { useForm } from "@formspree/react";
+// import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 export default function FreeTrialPopup () {
 
-  const { executeRecaptcha } = useGoogleReCaptcha();
+  // const { executeRecaptcha } = useGoogleReCaptcha();
 
-  const [state, handleSubmit] = useForm(`${process.env.GATSBY_FORMSPREE_FORM_ID}`, {
-    data: { "g-recaptcha-response": executeRecaptcha }
-  })
+  // const [state, handleSubmit] = useForm(`${process.env.GATSBY_FORMSPREE_FORM_ID}`, {
+  //   data: { "g-recaptcha-response": executeRecaptcha }
+  // })
 
+  function handleSubmit(e) {
+    e.preventDefault()
+  }
     return (
         <Popup 
             contentStyle={{minWidth: "300px", maxHeight: "600px", overflow: "auto", borderRadius: "15px", zIndex: "200000", padding: "0px"}} 

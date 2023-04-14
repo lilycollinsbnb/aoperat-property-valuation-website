@@ -1,19 +1,15 @@
 import React from 'react'
 import { Link } from "gatsby"
-// import { useForm } from "@formspree/react";
-// import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+import { useForm } from "@formspree/react";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 export default function ContactForm () {
 
-  // const { executeRecaptcha } = useGoogleReCaptcha();
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
-  // const [state, handleSubmit] = useForm(`${process.env.GATSBY_FORMSPREE_FORM_ID}`, {
-  //   data: { "g-recaptcha-response": executeRecaptcha }
-  // })
-
-  function handleSubmit(e) {
-    e.preventDefault()
-  }
+  const [state, handleSubmit] = useForm(`${process.env.GATSBY_FORMSPREE_FORM_ID}`, {
+    data: { "g-recaptcha-response": executeRecaptcha }
+  })
 
   return (
     <div>
@@ -90,9 +86,9 @@ export default function ContactForm () {
               Wyślij wiadomość
             </button>
           </div>
-          {/* { state.success && 
+          { state.success && 
             <p className="is-color-primary-green">Wiadomość została wysłana</p>
-          } */}
+          }
         </form>
       </div>
   )

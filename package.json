@@ -9,6 +9,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@theme-ui/color": "^0.6.0",
     "bootstrap": "^5.2.3",
@@ -37,6 +38,7 @@
     "prismjs": "^1.27.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-google-recaptcha-v3": "^1.10.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
     "react-slick": "^0.29.0",

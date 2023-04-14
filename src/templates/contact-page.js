@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ContactForm from "../components/contact-form"
 import { GatsbyImage } from "gatsby-plugin-image"
-// import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3"
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3"
 
 export const pageQuery = graphql`
   query ContactQuery($id: String!) {
@@ -36,7 +36,7 @@ const Contact = ({ data }) => {
   const { frontmatter } = markdownRemark
 
   return (
-    // <GoogleReCaptchaProvider reCaptchaKey={process.env.GATSBY_GOOGLE_RECAPTCHA_SITE_KEY}>
+    <GoogleReCaptchaProvider reCaptchaKey={process.env.GATSBY_GOOGLE_RECAPTCHA_SITE_KEY}>
     <Layout className="contact-page" sx={contactStyles.contactPage}>
       <Seo
         title={"Wycena - Kontakt"}
@@ -69,7 +69,7 @@ const Contact = ({ data }) => {
         </div>
       </section>
     </Layout>
-    // </GoogleReCaptchaProvider>
+    </GoogleReCaptchaProvider>
   )
 }
 

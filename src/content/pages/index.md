@@ -12,4 +12,4 @@ carouselItems:
     text: Skontaktuj się z nami
     redirectTo: /contact
 ---
-a﻿sd
+asd

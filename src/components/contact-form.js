@@ -7,7 +7,7 @@ export default function ContactForm () {
 
   const { executeRecaptcha } = useGoogleReCaptcha();
 
-  const [state, handleSubmit] = useForm(`${process.env.GATSBY_FORMSPREE_FORM_ID}`, {
+  const [state, handleSubmit] = useForm("contact", {
     data: { "g-recaptcha-response": executeRecaptcha }
   })
 

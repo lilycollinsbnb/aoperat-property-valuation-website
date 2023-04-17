@@ -39,7 +39,13 @@ export default function FreeTrialPopup () {
               <form 
                 className="contact-form"
                 name="contact"
-                onSubmit={handleSubmit}
+                onSubmit={(e) => {
+                  e.preventDefault()
+                  handleSubmit()
+                  if(state.succeeded){
+                    close()
+                  }
+                }}
               >
                 <div className="field">
                   <label className="label mrb-label-hidden" htmlFor={"email"}>

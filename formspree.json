@@ -1,0 +1,11 @@
+{
+  "forms": {
+    "contact": {
+      "name": "Contact Form",
+      "actions": [{  
+        "type": "email", 
+        "to": "$FORMSPREE_MAIL_TO"
+      }]
+    }
+  }
+}

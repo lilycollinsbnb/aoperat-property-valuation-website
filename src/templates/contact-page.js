@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import ContactForm from "../components/contact-form"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3"
+import { FormspreeProvider } from "@formspree/react"
 
 export const pageQuery = graphql`
   query ContactQuery($id: String!) {
@@ -47,7 +48,9 @@ const Contact = ({ data }) => {
           <div className="columns is-variable is-8">
             <div className="column is-flex is-flex-direction-column is-justify-content-center">
               <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-color-primary-green">{frontmatter.title}</h1>
-              <ContactForm/>
+              <FormspreeProvider project={process.env.GATSBY_FORMSPREE_PROJECT_ID}>
+                <ContactForm/>
+              </FormspreeProvider>
             </div>
             <div className="column is-flex is-flex-direction-column is-justify-content-center">
               <GatsbyImage

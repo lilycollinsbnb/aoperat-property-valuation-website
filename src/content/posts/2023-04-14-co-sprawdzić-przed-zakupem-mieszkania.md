@@ -18,13 +18,13 @@ Podczas oględzin nieruchomości na rynku wtórnym pierwsze pytanie, na które m
 
 Wśród osób, które chętnie korzystają z pomocy wykwalifikowanego eksperta od inspekcji technicznej, można wyróżnić trzy grupy i klientów: pierwsza to osoby, które chcą ocenić stan nieruchomości i oszacować koszty remontu; druga grupa to klienci zainteresowani negocjacją ceny ze sprzedającym; trzecia grupa to osoby, które chcą poznać cenę nieruchomości i koszty remontu. Wskazanie pewnych wad może znacznie obniżyć cenę nieruchomości.
 
-## Sprawdź te czynniki zanim kupisz mieszkanie!
+## Sprawdź te czynniki, zanim kupisz mieszkanie!
 
-Lista czynników, które należy sprawdzić w przypadku nieruchomości z rynku wtórnego jest obszerna. Sprawdzanie każdej nieruchomości można podzielić na trzy główne kategorie
+Lista czynników, które należy sprawdzić w przypadku nieruchomości z rynku wtórnego, jest obszerna. Sprawdzanie każdej nieruchomości można podzielić na trzy główne kategorie:
 
 * Informacje ogólne. Sprawdź metry kwadratowe mieszkania, cenę, jaką musisz zapłacić za metr kwadratowy oraz czy informacje podane w ofercie odpowiadają rzeczywistym danym. Sprawdź też stan elewacji, ocieplenia i plan zagospodarowania przestrzennego okolicy.
-* Stan instalacji. Zbadaj stan instalacji wodno-kanalizacyjnej, elektrycznej i gazowej. Sprawdzamy również, czy systemy grzewcze i wentylacyjne działają prawidłowo. Nie zapomnij również o rzeczach, które mogą wydawać się błahe, ale wpływają na użytkowanie nieruchomości, jak np. zasięg telefonu komórkowego czy połączenie z internetem.
-* Elementy wykończeniowe. W szczególności sprawdź stan ścian (np. sprawdź czy nie ma pleśni za pomocą kamery termowizyjnej). Dokładnie obserwować stan podłóg, szczelność okien i obecność mostków termicznych. Należy również sprawdzić drzwi (stan techniczny, klasa antywłamaniowa).
+* Stan instalacji. Zbadaj stan instalacji wodno-kanalizacyjnej, elektrycznej i gazowej. Sprawdzamy również, czy systemy grzewcze i wentylacyjne działają prawidłowo. Nie zapomnij również o rzeczach, które mogą wydawać się błahe, ale wpływają na użytkowanie nieruchomości, jak np. zasięg telefonu komórkowego czy połączenie z Internetem.
+* Elementy wykończeniowe. W szczególności sprawdź stan ścian (np. sprawdź, czy nie ma pleśni za pomocą kamery termowizyjnej). Dokładnie obserwować stan podłóg, szczelność okien i obecność mostków termicznych. Należy również sprawdzić drzwi (stan techniczny, klasa antywłamaniowa).
 
 Poniżej opisujemy przykładowe elementy wyposażenia mieszkania i domu, na które powinno się zwrócić uwagę przed zakupem.
 
@@ -64,4 +64,4 @@ Oprócz kontroli technicznej bardzo ważne jest przeprowadzenie kontroli prawnej
 
 Księga wieczysta i hipoteka zawierają przede wszystkim informacje o właścicielu (co pozwoli Ci zidentyfikować właściciela i potwierdzić, że jest on właścicielem mieszkania) oraz o nieruchomości (co pozwoli Ci sprawdzić, czy istnieją jakieś długi, roszczenia lub inne obciążenia związane z mieszkaniem).
 
-Księga wieczysta to także dokument, który łatwo znajdziesz! Wystarczy znać jej numer i skorzystać z wyszukiwarki ksiąg wieczystych i hipotek (bezpłatnej) na stronie Ministerstwa Sprawiedliwości. Jak znaleźć numer księgi wieczystej? Nie martw się, uczciwy sprzedawca na pewno Ci powie! Kupując mieszkanie nigdy nie zapominaj o sprawdzeniu księgi wieczystej.
+Księga wieczysta to także dokument, który łatwo znajdziesz! Wystarczy znać jej numer i skorzystać z wyszukiwarki ksiąg wieczystych i hipotek (bezpłatnej) na stronie Ministerstwa Sprawiedliwości. Jak znaleźć numer księgi wieczystej? Nie martw się, uczciwy sprzedawca na pewno Ci powie! Kupując mieszkanie, nigdy nie zapominaj o sprawdzeniu księgi wieczystej.

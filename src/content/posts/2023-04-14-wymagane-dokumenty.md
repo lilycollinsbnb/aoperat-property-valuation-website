@@ -11,7 +11,7 @@ featuredImage: /assets/wesley-tingey-snnhkz-mgfe-unsplash.jpg
 ![lokal mieszkalny](/assets/pexels-vecislavas-popa-1571468.jpg)
 
 * numer księgi wieczystej, jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
-* podstawa nabycia przez obecnego właściciela jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
+* podstawa nabycia przez obecnego właściciela, jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
 * zaświadczenie ze spółdzielni mieszkaniowej (dotyczy własnościowego spółdzielczego prawa do lokalu i zawiera m. in. informacje na temat komu przysługuje spółdzielcze własnościowe prawo do lokalu oraz podstawowe dane na temat lokalu tj. powierzchnia użytkowa, układ funkcjonalny),
 * kopia umowy przedwstępnej (jeżeli została podpisana).
 
@@ -28,8 +28,8 @@ featuredImage: /assets/wesley-tingey-snnhkz-mgfe-unsplash.jpg
 
 ![lokal w budynku](/assets/pexels-anna-filyaeva-2370932.jpg)
 
-* numer księgi wieczystej jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
-* podstawa nabycia przez obecnego właściciela jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
+* numer księgi wieczystej, jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
+* podstawa nabycia przez obecnego właściciela, jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
 * wypis z rejestru gruntów na działkę/działki, na których realizowana jest inwestycja,
 * pozwolenie na budowę,
 * kopia umowy kupna-sprzedaży z inwestorem (deweloper, spółdzielnia mieszkaniowa),
@@ -41,11 +41,11 @@ featuredImage: /assets/wesley-tingey-snnhkz-mgfe-unsplash.jpg
 
 * wypis i wyrys z rejestru gruntów,
 * wypis z miejscowego planu zagospodarowania przestrzennego lub decyzja o warunkach zabudowy,
-* numer księgi wieczystej jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
+* numer księgi wieczystej, jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
 * pozwolenie na budowę,
 * pozwolenie na użytkowanie lub potwierdzenie zgłoszenia budynku do użytkowania,
 * fragment dokumentacji architektoniczno-budowalnej (ogólna charakterystyka budynku wraz z parametrami technicznymi oraz rzuty poszczególnych kondygnacji),
-* podstawa nabycia przez obecnego właściciela jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
+* podstawa nabycia przez obecnego właściciela, jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
 * kopia umowy przedwstępnej(jeżeli została podpisana),
 * kosztorys w przypadku rozbudowy/modernizacji.
 
@@ -55,25 +55,19 @@ featuredImage: /assets/wesley-tingey-snnhkz-mgfe-unsplash.jpg
 
 * wypis i wyrys z rejestru gruntów,
 * wypis z miejscowego planu zagospodarowania przestrzennego lub decyzja o warunkach zabudowy,
-* numer księgi wieczystej jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
+* numer księgi wieczystej, jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
 * pozwolenie na budowę,
-* fragment dokumentacji architektoniczno-budowalnej (ogólna charakterystyka budynku wraz z parametrami technicznymi oraz rzuty poszczególnych kondygnacji),
-* podstawa nabycia przez obecnego właściciela jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
+* fragment dokumentacji architektoniczno-budowlanej (ogólna charakterystyka budynku wraz z parametrami technicznymi oraz rzuty poszczególnych kondygnacji),
+* podstawa nabycia przez obecnego właściciela, jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
 * przedwstępna umowa kupna-sprzedaży z inwestorem (deweloper, spółdzielnia mieszkaniowa),
 * kosztorys.
 
-
-
-
-
 ## Działka
-
-
 
 ![dzialka](/assets/uzbrojona-dzialka-budowlana-korzysci.jpg.jpg)
 
 * wypis i wyrys z rejestru gruntów,
 * wypis z miejscowego planu zagospodarowania przestrzennego lub decyzja o warunkach zabudowy,
-* numer księgi wieczystej jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
-* podstawa nabycia przez obecnego właściciela jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
+* numer księgi wieczystej, jeżeli jest ona dostępna w systemie elektronicznym lub odpis z księgi wieczystej,
+* podstawa nabycia przez obecnego właściciela, jeżeli właścicielem jest inna osoba niż wskazana w księdze wieczystej lub gdy sprawa dotyczy wyceny dla zabezpieczenia kredytu,
 * kopia umowy przedwstępnej (jeżeli została podpisana).

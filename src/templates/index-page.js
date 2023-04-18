@@ -34,7 +34,7 @@ const HomePage = ({ data }) => {
   const isSSR = typeof window === "undefined"
 
   return (
-    <GoogleReCaptchaProvider reCaptchaKey={"2187429176431083066"}>
+    <GoogleReCaptchaProvider reCaptchaKey={process.env.GATSBY_GOOGLE_RECAPTCHA_SITE_KEY}>
     <Layout>
       <Seo />
       { !isSSR &&

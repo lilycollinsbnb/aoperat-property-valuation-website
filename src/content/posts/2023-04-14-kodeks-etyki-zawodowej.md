@@ -14,7 +14,7 @@ Rzeczoznawcy majątkowi odgrywają kluczową rolę w gospodarce Polski, świadcz
 2. Rzetelności w postępowaniu wobec klienta, w tym przestrzegania tajemnicy zawodowej.
 3. Wykonywania czynności zawodowych w sposób przejrzysty, zrozumiały i czytelny według najlepszej woli i wiedzy.
 4. Odpowiedzialności za powierzone zadania i wykonywania ich z należytą starannością.
-5. Wykonywania tylko takich czynności z zakresu praktyki, co do których posiada odpowiednią wiedzę i kompetencje zawodowe.
+5. Wykonywania tylko takich czynności z zakresu praktyki, co do których ma odpowiednią wiedzę i kompetencje zawodowe.
 6. Wykonywania operatów szacunkowych obiektywnie i w sposób wolny od uzależnień od klienta.
 7. Odpowiedzialności za treść i formę opracowań, których jest autorem, a także za wykonywanie czynności zawodowych zaangażowanych przez niego osób trzecich.
 8. Dbałości o godność zawodu.
@@ -24,8 +24,6 @@ Rzeczoznawcy majątkowi odgrywają kluczową rolę w gospodarce Polski, świadcz
 (Kodeks uchwalony na posiedzeniu Rady Krajowej PFSRM 24 września 2008 r. Nr Uchwały 13/08)
 
 ![rzeczoznawca majątkowy i prawnik](/assets/10d9e808-0444-45ff-bb3a-1cc0af06907c.jpg "rzeczoznawca majątkowy i prawnik")
-
-
 
 ## ZASADY STOSOWANIA KODEKSU ETYKI ZAWODOWEJ
 
@@ -41,7 +39,7 @@ Niniejsze Zasady Stosowania Kodeksu Etyki Zawodowej Rzeczoznawców Majątkowych,
 
 § 2.
 
-Normy zawarte w Kodeksie Etyki , nie zastępują obowiązujących przepisów prawa.
+Normy zawarte w Kodeksie Etyki, nie zastępują obowiązujących przepisów prawa.
 
 § 3.
 
@@ -77,7 +75,7 @@ Rzeczoznawca majątkowy odpowiada za treść i formę opracowań, których jest 
 
 § 9
 
-Rzeczoznawca majątkowy powinien wykonywać tylko takie czynności z zakresu praktyki zawodowej, co do których posiada odpowiednią wiedzę i kompetencje zawodowe.
+Rzeczoznawca majątkowy powinien wykonywać tylko takie czynności z zakresu praktyki zawodowej, co do których ma odpowiednią wiedzę i kompetencje zawodowe.
 
 #### III. Wyłączenie od czynności
 
@@ -89,7 +87,7 @@ Rzeczoznawca majątkowy jest zobowiązany do wyłączenia się od wszelkich czyn
 
 § 11
 
-Obowiązkiem rzeczoznawcy majątkowego jest dbanie o zachowanie tajemnicy zawodowej przez jego pracowników na zasadach obowiązujących jego samego,.
+Obowiązkiem rzeczoznawcy majątkowego jest dbanie o zachowanie tajemnicy zawodowej przez jego pracowników na zasadach obowiązujących jego samego.
 
 § 12
 
@@ -113,7 +111,7 @@ Postanowienia ustępu 1 nie naruszają praw rzeczoznawcy do formułowania oceny 
 
 Rzeczoznawca majątkowy zobowiązany jest powstrzymać się od działań stanowiących czyny nieuczciwej konkurencji
 Nieuczciwa konkurencja może przejawiać się:
-w oferowaniu pracy za wynagrodzenie zaniżone, nie uwzględniające możliwości wykonania niezbędnych czynności wymaganych przepisami prawa,
+w oferowaniu pracy za wynagrodzenie zaniżone, nieuwzględniające możliwości wykonania niezbędnych czynności wymaganych przepisami prawa,
 w zaniechaniu żądania niezbędnej dokumentacji lub rezygnacji z innych wymagań, które mogą mieć wpływ na prawidłowe wykonanie czynności zawodowych.
 § 17
 
@@ -131,8 +129,8 @@ Rzeczoznawcę majątkowego obowiązuje zakaz prowadzenia nieuczciwej reklamy bą
 § 19
 
 Stowarzyszenia zrzeszone w Polskiej Federacji Stowarzyszeń Rzeczoznawców Majątkowych dostosują do niniejszego Kodeksu postanowienia dotyczące zasad etyki zawodowej rzeczoznawców, określone w ich regulaminach i statutach.
-Postępowanie wyjaśniające z tytułu naruszenia Zasad Kodeksu Etyki Zawodowej prowadzone są na podstawie Regulaminów i Statutów Stowarzyszenia Rzeczoznawców Majątkowych w którym zrzeszony jest taki rzeczoznawca.
+Postępowanie wyjaśniające z tytułu naruszenia Zasad Kodeksu Etyki Zawodowej prowadzone jest na podstawie Regulaminów i Statutów Stowarzyszenia Rzeczoznawców Majątkowych, w którym zrzeszony jest taki rzeczoznawca.
 § 20
 
-Niniejsze Zasady Stosowania Kodeksu Etyki Zawodowej Rzeczoznawców Majątkowych uchwalone przez Radę Krajową Polskiej Federacji Stowarzyszeń Rzeczoznawców Majątkowych w dniu 8 grudnia 2008 r. , wchodzą w życie z dniem 1 stycznia 2009 r.
-Z dniem wejścia w życie niniejszych Zasad traci moc Kodeks uchwalony przez Radę Krajową Polskiej Federacji Stowarzyszeń Rzeczoznawców Majątkowych w dniu 9 września 2004r.
+Niniejsze Zasady Stosowania Kodeksu Etyki Zawodowej Rzeczoznawców Majątkowych uchwalone przez Radę Krajową Polskiej Federacji Stowarzyszeń Rzeczoznawców Majątkowych w dniu 8 grudnia 2008 r., wchodzą w życie z dniem 1 stycznia 2009 r.
+Z dniem wejścia w życie niniejszych Zasad traci moc Kodeks uchwalony przez Radę Krajową Polskiej Federacji Stowarzyszeń Rzeczoznawców Majątkowych w dniu 9 września 2004 r.

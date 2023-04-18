@@ -77,18 +77,19 @@ export default function ContactForm () {
           </div>
           <div className="text-align-right">
             <button
-              className="button mrb-button mrb-button-light"
+              className="mt-3 button mrb-button mrb-button-light is-full-width"
               sx={{
                 variant: "variants.button",
               }}
               type="submit"
+              disabled={state.submitting}
             >
               Wyślij wiadomość
             </button>
-          </div>
-          { state.success && 
-            <p className="is-color-primary-green">Wiadomość została wysłana</p>
+            { state.succeeded === true && 
+            <p className="is-color-primary-green is-centered mt-3">Wiadomość została wysłana</p>
           }
+          </div>
         </form>
       </div>
   )

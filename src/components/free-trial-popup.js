@@ -9,7 +9,7 @@ export default function FreeTrialPopup () {
 
   const { executeRecaptcha } = useGoogleReCaptcha();
 
-  const [state, handleSubmit] = useForm(`${process.env.GATSBY_FORMSPREE_FORM_ID}`, {
+  const [state, handleSubmit] = useForm("contact", {
     data: { "g-recaptcha-response": executeRecaptcha }
   })
   
@@ -21,8 +21,13 @@ export default function FreeTrialPopup () {
             modal
             closeOnDocumentClick={false}
         >
-      { close => (
-        <div className="popup-content-div">
+      {(close) => {
+        if(state.succeeded === true){
+          close()
+        }
+
+        return(
+          <div className="popup-content-div">
           <div className="center-content popup-header-wrapper mt-3">
             <h3 className="has-text-weight-semibold is-size-4-mobile is-size-3-tablet is-size-2-widescreen is-color-primary-green">
               Wycena.biz
@@ -39,13 +44,7 @@ export default function FreeTrialPopup () {
               <form 
                 className="contact-form"
                 name="contact"
-                onSubmit={(e) => {
-                  e.preventDefault()
-                  handleSubmit()
-                  if(state.succeeded){
-                    close()
-                  }
-                }}
+                onSubmit={handleSubmit}
               >
                 <div className="field">
                   <label className="label mrb-label-hidden" htmlFor={"email"}>
@@ -73,7 +72,7 @@ export default function FreeTrialPopup () {
                     />
                   <label htmlFor="consent-to-contact" className="center-content is-small-font-2">Na podstawie art. 10 ust. 2 ustawy o świadczeniu usług drogą elektroniczną wyrażam zgodę na przekazywanie przez AOperat Prosta Spółka Akcyjna, na udostępniony przeze mnie adres e-mail informacji handlowych.</label>
                 </div>
-                <button type="submit" style={{width: "100%"}} className="mt-5 has-text-weight-bold button mrb-button mrb-button-dark">ZAPISZ MNIE</button>
+                <button disabled={state.submitting} type="submit" className="mt-5 has-text-weight-bold button mrb-button mrb-button-dark is-full-width">ZAPISZ MNIE</button>
                 
                 <div className="mrb-text-div is-small-font mt-3 mb-3">
                   Przed wyrażeniem zgody prosimy o zapoznanie się z <Link to="/terms-and-conditions">Regulaminem</Link> i <Link to="/privacy-policy">Polityką Prywantości</Link>. Wyrażenie zgody na kontakt drogą mailową i zaakceptowanie postanowień Polityki Prywatności oraz Regulaminu jest dobrowolne ale niezbędne do tego abyśmy mogli się z Tobą skontaktować. Zgodę można w każdej chwili cofnąć kontaktując się z Administratorem Danych Osobwych wskazanym w <Link to="/privacy-policy">Polityce Prywantości</Link>. 
@@ -83,7 +82,8 @@ export default function FreeTrialPopup () {
             </div>
           </div>
         </div>
-      )}
+        )
+      }}
       </Popup>
     )
 }

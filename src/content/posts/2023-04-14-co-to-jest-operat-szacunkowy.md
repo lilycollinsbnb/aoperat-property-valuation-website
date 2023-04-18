@@ -12,7 +12,7 @@ Operat szacunkowy jest szczegółową analizą danej nieruchomości, w której r
 
 Operat szacunkowy jest niezbędny w przypadku zakupu, sprzedaży, wynajmu lub dziedziczenia nieruchomości. Jest to dokument, który umożliwia obliczenie wartości nieruchomości, na podstawie której można określić jej cenę rynkową. W operacie szacunkowym zawiera się również informacje na temat sposobów i kryteriów wyceny nieruchomości, co pozwala na ich weryfikację i sprawdzenie ich rzetelności.
 
-Warto zaznaczyć, że operat szacunkowy sporządzany przez rzeczoznawcę majątkowego jest dokumentem mającym charakter ekspertyzy. Tym samym, jest to dokument, który posiada wartość prawomocną i może być wykorzystany w przypadku sporów sądowych, bądź innych działań prawnych, które wymagają rzetelnej i obiektywnej wyceny nieruchomości.
+Warto zaznaczyć, że operat szacunkowy sporządzany przez rzeczoznawcę majątkowego jest dokumentem mającym charakter ekspertyzy. Tym samym jest to dokument, który ma wartość prawomocną i może być wykorzystany w przypadku sporów sądowych, bądź innych działań prawnych, które wymagają rzetelnej i obiektywnej wyceny nieruchomości.
 
 ## Operat szacunkowy a wycena
 
@@ -26,4 +26,4 @@ Dlatego też, jeśli chodzi o wycenę nieruchomości, warto zwrócić się do rz
 
 ![](/assets/2c9b980c-6d8a-4ef1-a573-736061cc10e7.jpg)
 
-Podsumowując, operat szacunkowy jest niezbędnym dokumentem w przypadku transakcji dotyczących nieruchomości. Jego wartość polega na obiektywnej i rzetelnej analizie danej nieruchomości, co umożliwia oszacowanie jej wartości rynkowej. Oprócz tego, operat szacunkowy może być również wykorzystany w sprawach prawnych, gdzie jego wartość prawomocna ma kluczowe znaczenie. Dlatego też, warto zwrócić uwagę na to, by wyceny nieruchomości były przeprowadzane przez rzeczoznawców majątkowych, którzy posiadają niezbędne kwalifikacje i doświadczenie w dziedzinie rynku nieruchomości.
+Podsumowując, operat szacunkowy jest niezbędnym dokumentem w przypadku transakcji dotyczących nieruchomości. Jego wartość polega na obiektywnej i rzetelnej analizie danej nieruchomości, co umożliwia oszacowanie jej wartości rynkowej. Oprócz tego operat szacunkowy może być również wykorzystany w sprawach prawnych, gdzie jego wartość prawomocna ma kluczowe znaczenie. Dlatego też warto zwrócić uwagę na to, by wyceny nieruchomości były przeprowadzane przez rzeczoznawców majątkowych, którzy mają niezbędne kwalifikacje i doświadczenie w dziedzinie rynku nieruchomości.

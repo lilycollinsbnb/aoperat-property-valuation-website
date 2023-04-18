@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import HomePageBody from "./body/index-page-body"
 import FreeTrialPopup from "../components/free-trial-popup"
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3"
+import { FormspreeProvider } from "@formspree/react"
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -39,7 +40,9 @@ const HomePage = ({ data }) => {
       { !isSSR &&
         <React.Suspense fallback={<div />}>
           { window.location.href.indexOf('open-popup=true') > -1 &&
+           <FormspreeProvider project={process.env.GATSBY_FORMSPREE_PROJECT_ID}>
             <FreeTrialPopup />
+          </FormspreeProvider>
           }
         </React.Suspense>
       }

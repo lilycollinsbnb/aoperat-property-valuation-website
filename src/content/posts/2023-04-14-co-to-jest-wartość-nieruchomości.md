@@ -8,7 +8,7 @@ featuredImage: /assets/josh-appel-netpasr-bmq-unsplash.jpg
 ---
 Wartość nieruchomości to jedno z kluczowych pojęć w operatach szacunkowych sporządzanych przez rzeczoznawców majątkowych. Jest to kwota, która określa, ile dana nieruchomość jest warta na rynku. Wycena nieruchomości ma na celu oszacowanie rzeczywistej wartości nieruchomości na dzień sporządzenia operatu.
 
-Wartość nieruchomości jest ustalana na podstawie wielu czynników, takich jak lokalizacja, powierzchnia, stan techniczny budynków, wiek budynków, standard wykończenia, rodzaj i cel działki oraz ewentualne ograniczenia prawne lub administracyjne. W przypadku nieruchomości komercyjnych, dodatkowo brane są pod uwagę aspekty związane z prowadzeniem biznesu, takie jak obecność konkurencji, potencjał rynkowy czy perspektywy rozwoju.
+Wartość nieruchomości jest ustalana na podstawie wielu czynników, takich jak lokalizacja, powierzchnia, stan techniczny budynków, wiek budynków, standard wykończenia, rodzaj i cel działki oraz ewentualne ograniczenia prawne lub administracyjne. W przypadku nieruchomości komercyjnych dodatkowo brane są pod uwagę aspekty związane z prowadzeniem biznesu, takie jak obecność konkurencji, potencjał rynkowy czy perspektywy rozwoju.
 
 Rzeczoznawcy majątkowi, którzy sporządzają operaty szacunkowe, muszą stosować odpowiednie metody i techniki, aby oszacować wartość nieruchomości. W zależności od rodzaju nieruchomości i celu wyceny, stosowane są różne metody szacunkowe, takie jak metoda porównawcza, metoda kosztowa oraz metoda dochodowa.
 

@@ -16,7 +16,7 @@ Służebność gruntowa może być ustanowiona na czas oznaczony lub nieoznaczon
 
 Warto pamiętać, że służebność gruntowa nie jest równoznaczna z własnością nieruchomości, na której ta służebność jest ustanowiona. Użytkownik służebności gruntowej może jedynie korzystać z określonych praw na tej nieruchomości, nie stając się jej właścicielem.
 
-W przypadku sporów związanych z służebnościami gruntowymi istnieje możliwość skorzystania z pomocy rzeczoznawcy majątkowego, który przeprowadzi operat szacunkowy i oszacuje wartość nieruchomości, uwzględniając służebność gruntową. Taki operat szacunkowy będzie stanowił solidną podstawę w przypadku sporów i działań sądowych.
+W przypadku sporów związanych ze służebnościami gruntowymi istnieje możliwość skorzystania z pomocy rzeczoznawcy majątkowego, który przeprowadzi operat szacunkowy i oszacuje wartość nieruchomości, uwzględniając służebność gruntową. Taki operat szacunkowy będzie stanowił solidną podstawę w przypadku sporów i działań sądowych.
 
 Służebność gruntowa jest ważnym elementem obrotu nieruchomościami, ponieważ umożliwia korzystanie z gruntów, które są niezbędne do realizacji konkretnych celów. Dzięki temu osoby, które nie posiadają takich gruntów, mogą uzyskać do nich dostęp, co może być niezwykle ważne dla ich działalności.
 

@@ -102,17 +102,23 @@ Rzeczoznawca majątkowy nie powinien dopuszczać do sytuacji, w której byłby u
 § 14
 
 Wzajemne stosunki pomiędzy rzeczoznawcami powinny cechować koleżeństwo, wzajemna lojalność i współpraca. Rzeczoznawcy majątkowi powinni udzielać sobie pomocy i służyć radą w sprawach związanych z wykonywaniem zawodu.
+
+
 § 15
 
 Rzeczoznawcę majątkowego obowiązuje zakaz wyrażania wobec osób trzecich negatywnych opinii o opracowaniach innych rzeczoznawców.
 Postanowienia ustępu 1 nie naruszają praw rzeczoznawcy do formułowania własnej opinii o wartości przedmiotu wyceny poprzez wykonanie na zlecenie operatu szacunkowego.
 Postanowienia ustępu 1 nie naruszają praw rzeczoznawcy do formułowania oceny i wniosków w ramach kompetencji prawnych właściwych podmiotów.
+
+
 § 16
 
 Rzeczoznawca majątkowy zobowiązany jest powstrzymać się od działań stanowiących czyny nieuczciwej konkurencji
 Nieuczciwa konkurencja może przejawiać się:
 w oferowaniu pracy za wynagrodzenie zaniżone, nieuwzględniające możliwości wykonania niezbędnych czynności wymaganych przepisami prawa,
 w zaniechaniu żądania niezbędnej dokumentacji lub rezygnacji z innych wymagań, które mogą mieć wpływ na prawidłowe wykonanie czynności zawodowych.
+
+
 § 17
 
 Rzeczoznawcę majątkowego obowiązuje zakaz prowadzenia nieuczciwej reklamy bądź promocji, sprzecznej z godnością zawodu, szkodzącej innym rzeczoznawcom bądź ich działalności.
@@ -130,6 +136,8 @@ Rzeczoznawcę majątkowego obowiązuje zakaz prowadzenia nieuczciwej reklamy bą
 
 Stowarzyszenia zrzeszone w Polskiej Federacji Stowarzyszeń Rzeczoznawców Majątkowych dostosują do niniejszego Kodeksu postanowienia dotyczące zasad etyki zawodowej rzeczoznawców, określone w ich regulaminach i statutach.
 Postępowanie wyjaśniające z tytułu naruszenia Zasad Kodeksu Etyki Zawodowej prowadzone jest na podstawie Regulaminów i Statutów Stowarzyszenia Rzeczoznawców Majątkowych, w którym zrzeszony jest taki rzeczoznawca.
+
+
 § 20
 
 Niniejsze Zasady Stosowania Kodeksu Etyki Zawodowej Rzeczoznawców Majątkowych uchwalone przez Radę Krajową Polskiej Federacji Stowarzyszeń Rzeczoznawców Majątkowych w dniu 8 grudnia 2008 r., wchodzą w życie z dniem 1 stycznia 2009 r.

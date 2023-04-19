@@ -10,7 +10,7 @@ Rynek nieruchomości nie lubi pustostanów. Porusza się dynamicznie jak pracuj�
 
 ## Kto to jest rzeczoznawca?
 
-![rzeczoznawca](/assets/374f86e6-35da-4871-a3c5-1ee267c83b79.jpg "Rzeczoznawca")
+![Wygenerowany rzeczoznawca majątkowych przez sztuczna inteligencję](/assets/374f86e6-35da-4871-a3c5-1ee267c83b79.jpg)
 
 Rzeczoznawca to osoba, która profesjonalnie szacuje wartość nieruchomości. Tytuł „rzeczoznawca" jest chroniony przez prawo. Dostęp do wykonywania tego zawodu jest regulowany prawnie poprzez ustawę o gospodarce nieruchomościami. Ponadto, aby wykonywać ten zawód, należy najpierw uzyskać specjalne uprawnienia wydane przez Ministra Inwestycji i Rozwoju. Każdy, kto nie posiada tych uprawnień i nie jest rzeczoznawcą majątkowym, może zostać ukarany karą pieniężną w wysokości do 50 000 zł. W związku z tym wszyscy legalni rzeczoznawcy majątkowi są wpisani do Centralnego Rejestru Rzeczoznawców Majątkowych, który jest prowadzony przez Ministra Rozwoju, Pracy i Techniki i jest ogólnodostępny. Oznacza to, że można sprawdzić, czy wszyscy rzeczoznawcy są prawdziwymi rzeczoznawcami. Każdy rzeczoznawca otrzymuje numer identyfikacyjny odpowiadający jego numerowi ewidencyjnemu.
 

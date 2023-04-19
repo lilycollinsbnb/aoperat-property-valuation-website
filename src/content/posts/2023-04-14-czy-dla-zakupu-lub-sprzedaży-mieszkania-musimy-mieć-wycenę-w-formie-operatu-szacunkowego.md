@@ -1,4 +1,5 @@
 ---
+template: blog-post
 title: Czy dla zakupu lub sprzedaży mieszkania musimy mieć wycenę w formie
   operatu szacunkowego?
 slug: /czy-musimy-miec-operat-szacunkowy-przy-zakupie

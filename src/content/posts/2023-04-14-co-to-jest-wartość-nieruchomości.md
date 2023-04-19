@@ -12,7 +12,7 @@ Wartość nieruchomości jest ustalana na podstawie wielu czynników, takich jak
 
 Rzeczoznawcy majątkowi, którzy sporządzają operaty szacunkowe, muszą stosować odpowiednie metody i techniki, aby oszacować wartość nieruchomości. W zależności od rodzaju nieruchomości i celu wyceny, stosowane są różne metody szacunkowe, takie jak metoda porównawcza, metoda kosztowa oraz metoda dochodowa.
 
-![pani rzeczoznawca](/assets/4a648ac1-8a19-459f-9684-c7d1ddb0311b.jpg)
+![Wygenerowana Pani Rzeczoznawca majątkowa przez sztuczna inteligencję](/assets/4a648ac1-8a19-459f-9684-c7d1ddb0311b.jpg)
 
 ## Metoda porównawcza
 

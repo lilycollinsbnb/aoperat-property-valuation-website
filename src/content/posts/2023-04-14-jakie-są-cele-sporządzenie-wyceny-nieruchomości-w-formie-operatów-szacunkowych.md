@@ -52,6 +52,6 @@ W przypadku działek zabudowanych rzeczoznawca majątkowy bierze pod uwagę wiel
 
 W przypadku działek niezabudowanych rzeczoznawca majątkowy bierze pod uwagę wiele czynników, takich jak lokalizacja, powierzchnia, ukształtowanie terenu, dostępność do drogi publicznej, stan prawny działki, jej przeznaczenie oraz ewentualne ograniczenia prawne lub administracyjne. Wycena działki niezabudowanej może być skomplikowana, ponieważ wartość takiej nieruchomości zależy od wielu czynników, takich jak sytuacja rynkowa, perspektywy rozwoju, a także plany urbanistyczne.
 
-![pani rzeczoznawca](/assets/322f447b-3702-4f4f-b9e1-14b36d03032a.jpg "pani rzeczoznawca")
+![Wygenerowana Pani rzeczoznawca](/assets/322f447b-3702-4f4f-b9e1-14b36d03032a.jpg)
 
 Podsumowując, operat szacunkowy sporządzony przez rzeczoznawcę majątkowego może dotyczyć nie tylko nieruchomości, ale również innych aktywów, takich jak ruchomości, przedsiębiorstwa czy prawa własności intelektualnej. Wycena przedmiotów wymaga dokładnej analizy wielu czynników, a rzeczoznawca musi posiadać wiedzę i doświadczenie w odpowiedniej dziedzinie, aby sporządzić rzetelną i wiarygodną wycenę.

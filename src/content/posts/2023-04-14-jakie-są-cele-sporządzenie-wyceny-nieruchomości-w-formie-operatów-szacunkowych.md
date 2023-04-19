@@ -1,4 +1,5 @@
 ---
+template: blog-post
 title: Przedmiot wyceny
 slug: /przedmiot-wyceny
 date: 2023-04-14 13:39

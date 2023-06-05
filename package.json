@@ -16,6 +16,7 @@
     "bulma": "^0.9.4",
     "gatsby": "^4.7.1",
     "gatsby-cookie-notice": "^1.0.6",
+    "gatsby-plugin-feed": "^5.10.0",
     "gatsby-plugin-gdpr-cookies": "^2.0.9",
     "gatsby-plugin-google-analytics": "^4.7.0",
     "gatsby-plugin-image": "^2.7.0",

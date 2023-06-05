@@ -16,6 +16,61 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
+      resolve: `gatsby-plugin-feed`,
+      query: `
+      {
+        site {
+          siteMetadata {
+            title
+            description
+            siteUrl
+            site_url: siteUrl
+          }
+        }
+      }
+      `,
+      options: {
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark }}) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.frontmatter.description,
+                  date: edge.node.frontmatter.date,
+                  url: encodeURI(site.siteMetadata.siteUrl + edge.node.fields.slug),
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ "content:encoded": edge.node.html }]
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  filter: { frontmatter: { template: { eq: "blog-post" } } }
+                ) {
+                  edges {
+                    node {
+                      id
+                      fields {
+                        slug
+                      }
+                      frontmatter {
+                        title
+                        date(formatString: "DD-MM-YYYY")
+                        description
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Wycena.biz RSS Feed"
+          }
+        ]
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,

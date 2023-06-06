@@ -14,7 +14,7 @@
     "@theme-ui/color": "^0.6.0",
     "bootstrap": "^5.2.3",
     "bulma": "^0.9.4",
-    "gatsby": "^4.7.1",
+    "gatsby": "^4.0.0",
     "gatsby-cookie-notice": "^1.0.6",
     "gatsby-plugin-feed": "^5.10.0",
     "gatsby-plugin-gdpr-cookies": "^2.0.9",

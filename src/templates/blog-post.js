@@ -15,7 +15,6 @@ const Post = ({ data, pageContext }) => {
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData.images.fallback.src
     : ""
-  console.log(frontmatter.featuredImage)
   const { previous, next } = pageContext
 
   return (

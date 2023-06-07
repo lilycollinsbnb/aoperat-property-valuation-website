@@ -13,7 +13,7 @@ const Post = ({ data, pageContext }) => {
   const { frontmatter, html, excerpt } = markdownRemark
 
   const Image = frontmatter.featuredImage
-    ? frontmatter.featuredImage.childImageSharp.gatsbyImageData.images.fallback.src
+    ? frontmatter.featuredImage.childImageSharp?.gatsbyImageData?.images?.fallback?.src
     : ""
   const { previous, next } = pageContext
 

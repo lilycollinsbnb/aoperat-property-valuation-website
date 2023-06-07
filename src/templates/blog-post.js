@@ -13,8 +13,9 @@ const Post = ({ data, pageContext }) => {
   const { frontmatter, html, excerpt } = markdownRemark
 
   const Image = frontmatter.featuredImage
-    ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
+    ? frontmatter.featuredImage.childImageSharp.gatsbyImageData.images.fallback.src
     : ""
+  console.log(frontmatter.featuredImage)
   const { previous, next } = pageContext
 
   return (
@@ -54,7 +55,7 @@ export const pageQuery = graphql`
         description
         featuredImage {
           childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
+            gatsbyImageData(layout: FIXED, width: 1200, height: 630 )
           }
         }
       }

@@ -11,10 +11,12 @@ import PostBody from "./body/blog-post-body"
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
-
-  const Image = frontmatter.featuredImage
-    ? frontmatter.featuredImage.childImageSharp?.gatsbyImageData?.images?.fallback?.src
+  const seoImage = frontmatter.featuredImage
+    ? frontmatter.featuredImage?.childImageSharp?.gatsbyImageData.images.fallback.src
     : ""
+  const postImage = frontmatter.featuredImage
+  ? frontmatter.featuredImage?.childImageSharp?.gatsbyImageData
+  : ""
   const { previous, next } = pageContext
 
   return (
@@ -24,12 +26,12 @@ const Post = ({ data, pageContext }) => {
         description={
           frontmatter.description ? frontmatter.description : excerpt
         }
-        image={Image}
+        image={seoImage}
         article={true}
       />
       <PostBody 
         title={frontmatter.title}
-        image={Image}
+        image={postImage}
         previous={previous}
         next={next}
         content={html}
